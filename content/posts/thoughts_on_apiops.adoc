@@ -1,0 +1,38 @@
+---
+title: "Thoughts on APIOps and especially the deployment of API Definitions"
+date: 2022-06-17T18:46:53+02:00
+draft: true
+---
+
+
+Having learned in my last https://medium.com/@daniel.kocot/designing-apis-is-very-hard-work-744a37ff13ad[post on Medium] that API design is not really an easy task and involves a lot of work, I'm going to move on to another complicated area of APIs, APIOps and in more details their deployments.
+
+== APIOps, what does that exactly mean?
+
+With APIOps we want to describe a process that takes API definitions on their way to a deployment. This process should ensure that the definitions are valid and tested on the base of the API guideline.
+
+image::APIOps_in_Action-final.png[]
+
+For the use of APIOps, it is basically irrelevant which CI/CD tool is supporting the process. For further consideration, the push of an API definition in the Git repository represents the starting point. With APIOps, we have exactly one goal in terms of deployment. To distribute the API definition artifact to different components or to make components available on the base of the artifact.
+
+== CI of APIs
+
+Using Continuous Integration (CI), we can achieve this as part of APIOps. We combine all elements of API definition by 
+building, which means the joining of references within a definition, for validation and testing. 
+
+=== Build
+
+An API definition can be created from different sub-documents by using the ref property. For the following steps it is important that we have a merged API definition in which the respective references are resolved. This can be easily achieved using a tool such as https://github.com/Redocly/redocly-cli[redocly-cli].
+
+
+
+=== Validate
+
+
+
+=== Test
+
+
+
+
+

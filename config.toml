@@ -1,0 +1,82 @@
+baseURL = "https://danielkocot.github.io"
+languageCode = "en-us"
+title = "Thoughts and ideas about Architecture and APIs"
+theme = "hugo-coder"
+
+paginate = 20
+
+[params]
+ title = "Daniel Kocot"
+ author = "Daniel Kocot"
+ since = 2016
+ info = "Senior Solution Architect / Head of API Experience and Operations with codecentric"
+ description = "Thoughts and ideas about Architecture and APIs"
+ avatarurl = "images/profile.jpg"
+ enableTwemoji = true
+ colorScheme = "dark"
+
+[[params.social]]
+icon = "fa fa-linkedin fa-2x"
+name = "Linkedin"
+weight = 1
+url = "https://www.linkedin.com/in/danielkocot" 
+
+[[params.social]]
+icon = "fa fa-github fa-2x"
+name = "GitHub"
+weight = 2
+url = "https://github.com/danielkocot"
+
+[[params.social]]
+icon = "fa fa-envelope fa-2x"
+weight = 3
+name = "E-Mail"
+url = "mailto:danielkocot@icloud.com?subject=Contact from Homepage"
+
+[menu]
+
+    [[menu.main]]
+    name = "Blog"
+    weight = 200
+    url = "posts/"
+
+    [[menu.main]]
+    name = "Publications"
+    weight = 300
+    url = "publications/"
+
+    [[menu.main]]
+    name = "Talks"
+    weight = 400
+    url = "talks/"
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
+
+[security]
+enableInlineShortcodes = false
+
+[security.exec]
+allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^asciidoctor$"]
+osEnv = ["(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|RUBYLIB)$"]
+
+[security.funcs]
+getenv = ["^HUGO_"]
+
+[security.http]
+methods = ["(?i)GET|POST"]
+urls = [".*"]
+
+[markup.asciidocext]
+    extensions = ["asciidoctor-diagram"]
+    workingFolderCurrent = false
+    [markup.asciidocext.attributes]
+        imagesdir = "../images"
+        source-highlighter = "rouge"
+        rouge-style = "github"
+        rouge-css = "style"
+        icons = "font"
+        ref-less = "https://less.works/[LeSS]" 
