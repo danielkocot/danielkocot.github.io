@@ -7,6 +7,7 @@ draft: false
 All listed publications are in german.
 
 ## IT Spektrum
+* API-Gateway - Das unbekannte Wesens
 * Von Schatten und Zombies - APIs in freier Wildbahn (Ausgabe 01/2023)
 * Nicht alle APIs müssen Rest(ful) sein (Ausgabe 05/2022)
 * API Guidelines - Der Rettungsanker beim Design von APIs (Ausgabe 04/2022)
