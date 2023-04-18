@@ -9,7 +9,13 @@ draft: false
 All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot)
 
 ## Planned
-* Developer Journey oder warum Platform Engineering eigentlich nur einen Hype beschreibt, Javaland, Brühl, March 2023
+* Adopting AsyncAPI in enterprisey contexts, EDA Summit, online, May
+* API Experience, DigitalXChange, Gummersbach, June
+* Tackling cross-cutting concerns within your architectures, CloudLand, Brühl, June
+
+## 2023
+* On the path to evolutionary architecture with APIs, betterCode() API, online, March
+* Developer Journey oder warum Platform Engineering eigentlich nur einen Hype beschreibt, Javaland, Brühl, March
 
 
 ## 2022
