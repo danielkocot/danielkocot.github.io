@@ -9,11 +9,15 @@ draft: false
 All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot)
 
 ## Planned
-* Adopting AsyncAPI in enterprisey contexts, EDA Summit, online, May
-* API Experience, DigitalXChange, Gummersbach, June
+* API first not or why such an approach reflects nothing more than wishful thinking., NordicsAPI Platform Summit, Stockholm, October
+* Unlocking Collaboration with Internal Developer Portals & Marketplaces: Democratizing API Access, apidays, London, September
+* AsyncAPI 101, DATEV Coding Festival, online, June
 * Tackling cross-cutting concerns within your architectures, CloudLand, Brühl, June
 
 ## 2023
+* On the path to evolutionary architecture with APIs, Geekle API Forum, online, June
+* API Experience, DigitalXChange, Gummersbach, June
+* Adopting AsyncAPI in enterprisey contexts, EDA Summit, online, May
 * On the path to evolutionary architecture with APIs, betterCode() API, online, March
 * Developer Journey oder warum Platform Engineering eigentlich nur einen Hype beschreibt, Javaland, Brühl, March
 
