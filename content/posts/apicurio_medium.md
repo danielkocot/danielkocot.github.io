@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-06-18T00:24:49+02:00
-title = "APIcurio: An Integral Part of Your API Program on Kubernetes"
+title = "APIcurio: An Integral Part of Your API Program on Kubernetes [Medium story]"
 description = ""
 slug = ""
 authors = []

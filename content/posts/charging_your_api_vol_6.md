@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-06-14T00:16:29+02:00
-title = "Charge your APIs Volume 6: Perfecting Your APIOps - Harnessing the Power of k6 for API Testing"
+title = "Charge your APIs Volume 6: Perfecting Your APIOps - Harnessing the Power of k6 for API Testing [codencentric blog]"
 description = ""
 slug = ""
 authors = []

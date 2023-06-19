@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2022-08-24
-title = "API guidelines, the lifeline when designing of APIs [Medium]"
+title = "API guidelines, the lifeline when designing of APIs [Medium story]"
 description = ""
 slug = ""
 authors = []

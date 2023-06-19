@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-06-07T00:16:15+02:00
-title = "Charge your APIs Volume 5: Taking APIOps with Continuous Deployment to the Next Level"
+title = "Charge your APIs Volume 5: Taking APIOps with Continuous Deployment to the Next Level [codencentric blog]"
 description = ""
 slug = ""
 authors = []

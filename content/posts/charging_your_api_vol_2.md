@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-05-17T00:40:53+02:00
-title = "Charge your APIs Volume 2 - Guide your teams to achieve value-adding APIs"
+title = "Charge your APIs Volume 2 - Guide your teams to achieve value-adding APIs [codencentric blog]"
 description = ""
 slug = ""
 authors = []

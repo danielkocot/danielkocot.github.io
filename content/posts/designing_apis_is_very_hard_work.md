@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2022-05-31
-title = "Designing APIs is very hard work [Medium]"
+title = "Designing APIs is very hard work [Medium story]"
 description = ""
 slug = ""
 authors = []
