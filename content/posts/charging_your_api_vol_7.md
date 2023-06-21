@@ -1,12 +1,12 @@
 +++ 
-draft = true
-date = 2023-06-20T00:16:33+02:00
-title = ""
+draft = false
+date = 2023-06-21T00:16:33+02:00
+title = "Charge your APIs Volume 7: Enhancing APIOps - API Diffing with Tufin/oasdiff"
 description = ""
 slug = ""
 authors = []
-tags = []
+tags = ["chargeyourapis"]
 categories = []
-externalLink = ""
+externalLink = "https://www.codecentric.de/wissens-hub/blog/charge-your-apis-volume-7-enhancing-apiops-api-diffing-with-tufinoasdiff"
 series = ["Charge your APIs"]
 +++
