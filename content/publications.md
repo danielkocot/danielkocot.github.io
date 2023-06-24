@@ -7,6 +7,7 @@ draft: false
 All listed publications are in german.
 
 ## IT Spektrum
+* Sind wir schon auf einem Marktplatz oder noch immer in einem Portal? Oder doch was dazwischen? (Ausgabe 04/2023)
 * Integrationsplattformen (Ausgabe 03/2023)
 * API-Gateway - Das unbekannte Wesen (Ausgabe 02/2023)
 * Von Schatten und Zombies - APIs in freier Wildbahn (Ausgabe 01/2023)
