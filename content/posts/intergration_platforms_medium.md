@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-06-25T10:01:48+02:00
-title = "Integration Platforms"
+title = "Integration Platforms [Medium Story]"
 description = ""
 slug = ""
 authors = []
