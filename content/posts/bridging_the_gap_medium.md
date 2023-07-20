@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-07-07T00:01:34+02:00
-title = "Bridging the Gap: API Contracts, Data Contracts, and the Power of API Classification"
+title = "Bridging the Gap: API Contracts, Data Contracts, and the Power of API Classification [Medium Story]"
 description = ""
 slug = ""
 authors = []

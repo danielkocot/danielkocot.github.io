@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-07-12T08:00:00+02:00
-title = "Charge your APIs Volume 10: Crafting API Definitions with TypeSpec"
+title = "Charge your APIs Volume 10: Crafting API Definitions with TypeSpec [codecentric Blog]"
 description = ""
 slug = ""
 authors = []
