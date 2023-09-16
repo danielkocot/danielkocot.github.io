@@ -9,12 +9,15 @@ draft: false
 All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot)
 
 ## Planned
-* API first not or why such an approach reflects nothing more than wishful thinking., NordicsAPI Platform Summit, Stockholm, October
+* Aktueller Stand der API-Entwicklung: Veränderung, Potenzial und Ausblicke, InfoDays "Moderne API-Entwicklung, Cologne, October
+* API first... not, NordicsAPI Platform Summit, Stockholm, October
+* Zusammenarbeit mit internen Entwicklerportalen und Marktplätzen ermöglichen: Demokratisierung des API-Zugangs, SoftwerkerKonf, online, October
+
+
+## 2023
 * Unlocking Collaboration with Internal Developer Portals & Marketplaces: Democratizing API Access, apidays, London, September
 * AsyncAPI 101, DATEV Coding Festival, online, June
 * Tackling cross-cutting concerns within your architectures, CloudLand, Brühl, June
-
-## 2023
 * On the path to evolutionary architecture with APIs, Geekle API Forum, online, June
 * API Experience, DigitalXChange, Gummersbach, June
 * Adopting AsyncAPI in enterprisey contexts, EDA Summit, online, May
