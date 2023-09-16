@@ -7,6 +7,7 @@ draft: false
 All listed publications are in german.
 
 ## IT Spektrum
+* Was API-first tatsächlich bedeutet (Ausgabe 05/2023)
 * Sind wir schon auf einem Marktplatz oder noch immer in einem Portal? Oder doch was dazwischen? (Ausgabe 04/2023)
 * Integrationsplattformen (Ausgabe 03/2023)
 * API-Gateway - Das unbekannte Wesen (Ausgabe 02/2023)
@@ -16,7 +17,7 @@ All listed publications are in german.
 * API Design ist Arbeit, Arbeit und nochmals Arbeit (Ausgabe 03/2022) 
 
 ## Der Softwerker - Das Magazin
-* [API-Consumer - Im Spannungsfeld von Suchen und Feedback (Vol. 21)](https://info.codecentric.de/softwerker-vol-20)
+* [API-Consumer - Im Spannungsfeld von Suchen und Feedback (Vol. 21)](https://info.codecentric.de/softwerker-vol-21)
 * [API Experience (Vol. 20)](https://info.codecentric.de/softwerker-vol-20)
 * [Von der Spezifikation zur Infrastruktur - Automatisierte API Deployments (Vol. 19)](https://info.codecentric.de/softwerker-vol-19)
 * [AsyncAPI - Dokumentation von Event- und Message-getriebenen Architekturen (Vol. 18)](https://info.codecentric.de/softwerker-vol-18)
