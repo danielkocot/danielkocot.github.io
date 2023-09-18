@@ -12,6 +12,7 @@ All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot
 * Aktueller Stand der API-Entwicklung: Veränderung, Potenzial und Ausblicke, InfoDays "Moderne API-Entwicklung, Cologne, October
 * API first... not, NordicsAPI Platform Summit, Stockholm, October
 * Zusammenarbeit mit internen Entwicklerportalen und Marktplätzen ermöglichen: Demokratisierung des API-Zugangs, SoftwerkerKonf, online, October
+* Leveraging Prompt Engineering for Effective OpenAPI Descriptions of APIs, Prompt Engineering Conference 2023, online
 
 
 ## 2023
