@@ -9,6 +9,7 @@ draft: false
 All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot)
 
 ## Planned
+* Unlocking Collaboration with Internal Developer Portals & Marketplaces: Democratizing API Access, apidays, Paris, December
 * Aktueller Stand der API-Entwicklung: Veränderung, Potenzial und Ausblicke, InfoDays "Moderne API-Entwicklung, Cologne, October
 * API first... not, NordicsAPI Platform Summit, Stockholm, October
 * Zusammenarbeit mit internen Entwicklerportalen und Marktplätzen ermöglichen: Demokratisierung des API-Zugangs, SoftwerkerKonf, online, October
