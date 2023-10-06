@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-08-29T00:28:21+02:00
-title = "The Challenges of programmatically creating PDFs without expertise"
+title = "The Challenges of programmatically creating PDFs without expertise [Substack Post]"
 description = ""
 slug = ""
 authors = []

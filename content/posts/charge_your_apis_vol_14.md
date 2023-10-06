@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-08-31T00:16:09+02:00
-title = "Charge your APIs Volume 14: Is API Management Really Dead? Understanding the Role of APIOps"
+title = "Charge your APIs Volume 14: Is API Management Really Dead? Understanding the Role of APIOps [codecentric Blog]"
 description = ""
 slug = ""
 authors = []
