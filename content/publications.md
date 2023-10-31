@@ -7,6 +7,7 @@ draft: false
 All listed publications are in german.
 
 ## IT Spektrum
+* Trends 2024 (Ausgabe 06/2023)
 * Was API-first tatsächlich bedeutet (Ausgabe 05/2023)
 * Sind wir schon auf einem Marktplatz oder noch immer in einem Portal? Oder doch was dazwischen? (Ausgabe 04/2023)
 * Integrationsplattformen (Ausgabe 03/2023)
@@ -17,6 +18,7 @@ All listed publications are in german.
 * API Design ist Arbeit, Arbeit und nochmals Arbeit (Ausgabe 03/2022) 
 
 ## Der Softwerker - Das Magazin
+* [Die Verwendung von Protobuf zur Definition von gRPC-Services](https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-23)
 * [API-Consumer - Im Spannungsfeld von Suchen und Feedback (Vol. 21)](https://info.codecentric.de/softwerker-vol-21)
 * [API Experience (Vol. 20)](https://info.codecentric.de/softwerker-vol-20)
 * [Von der Spezifikation zur Infrastruktur - Automatisierte API Deployments (Vol. 19)](https://info.codecentric.de/softwerker-vol-19)
