@@ -9,14 +9,15 @@ draft: false
 All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot)
 
 ## Planned
+* API Thinking: Ein Paradigmenwechsel im digitalen Zeitalter, OOP Software meets Business, Munich, January
 * Unlocking Collaboration with Internal Developer Portals & Marketplaces: Democratizing API Access, apidays, Paris, December
+
+
+## 2023
 * Aktueller Stand der API-Entwicklung: Veränderung, Potenzial und Ausblicke, InfoDays "Moderne API-Entwicklung, Cologne, October
 * API first... not, NordicsAPI Platform Summit, Stockholm, October
 * Zusammenarbeit mit internen Entwicklerportalen und Marktplätzen ermöglichen: Demokratisierung des API-Zugangs, SoftwerkerKonf, online, October
 * Leveraging Prompt Engineering for Effective OpenAPI Descriptions of APIs, Prompt Engineering Conference 2023, online
-
-
-## 2023
 * Unlocking Collaboration with Internal Developer Portals & Marketplaces: Democratizing API Access, apidays, London, September
 * AsyncAPI 101, DATEV Coding Festival, online, June
 * Tackling cross-cutting concerns within your architectures, CloudLand, Brühl, June
