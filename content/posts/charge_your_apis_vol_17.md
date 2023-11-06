@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2023-10-12T23:29:20+01:00
 title = "Charge your APIs Volume 17: Using Protobuf for Defining gRPC Services - A Guide to Creating Stable and Efficient Service Definitions Part 2 [codecentric Blog]"
 description = ""
