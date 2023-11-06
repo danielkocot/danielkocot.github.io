@@ -18,7 +18,7 @@ All listed publications are in german.
 * API Design ist Arbeit, Arbeit und nochmals Arbeit (Ausgabe 03/2022) 
 
 ## Der Softwerker - Das Magazin
-* [Die Verwendung von Protobuf zur Definition von gRPC-Services](https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-23)
+* [Die Verwendung von Protobuf zur Definition von gRPC-Services (Vol. 23)](https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-23)
 * [API-Consumer - Im Spannungsfeld von Suchen und Feedback (Vol. 21)](https://info.codecentric.de/softwerker-vol-21)
 * [API Experience (Vol. 20)](https://info.codecentric.de/softwerker-vol-20)
 * [Von der Spezifikation zur Infrastruktur - Automatisierte API Deployments (Vol. 19)](https://info.codecentric.de/softwerker-vol-19)
