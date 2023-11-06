@@ -7,6 +7,6 @@ slug = ""
 authors = []
 tags = []
 categories = []
-externalLink = ""
+externalLink = "https://danielkocot.substack.com/p/everyones-buzzing-about-api-first"
 series = []
 +++
