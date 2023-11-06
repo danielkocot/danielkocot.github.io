@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2023-11-19T00:13:00+01:00
+date = 2023-10-19T00:13:00+01:00
 title = "Charge your APIs: NordicAPIs Platform Summit Edition - API first ... not! [codecentric Blog]"
 description = ""
 slug = ""
