@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-12-14T08:00:00+01:00
-title = "Charge your APIs Volume 20: Navigating the OpenAPI Initiative Workflows Specification - Enhancing API Ecosystems"
+title = "Charge your APIs Volume 20: Navigating the OpenAPI Initiative Workflows Specification - Enhancing API Ecosystems [codecentric Blog]"
 description = ""
 slug = ""
 authors = []
