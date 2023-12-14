@@ -9,11 +9,13 @@ draft: false
 All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot)
 
 ## Planned
+* Protobuf und gRPC: Einführung in Cloud Native Kommunikation, JavaLand, Nürburgring, March
 * API Thinking: Ein Paradigmenwechsel im digitalen Zeitalter, OOP Software meets Business, Munich, January
+
+
+
+## 2023 (13 talks delivered)
 * Unlocking Collaboration with Internal Developer Portals & Marketplaces: Democratizing API Access, apidays, Paris, December
-
-
-## 2023
 * Aktueller Stand der API-Entwicklung: Veränderung, Potenzial und Ausblicke, InfoDays "Moderne API-Entwicklung, Cologne, October
 * API first... not, NordicsAPI Platform Summit, Stockholm, October
 * Zusammenarbeit mit internen Entwicklerportalen und Marktplätzen ermöglichen: Demokratisierung des API-Zugangs, SoftwerkerKonf, online, October
@@ -28,7 +30,7 @@ All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot
 * Developer Journey oder warum Platform Engineering eigentlich nur einen Hype beschreibt, Javaland, Brühl, March
 
 
-## 2022
+## 2022 (21 talks delivered)
 * API Experience – Mit Gutem Design zu besseren und erfolgreichen APIs die eure Kunden begeistern, IT-Tage 2022
 * "Die guten ins Töpfchen, die schlechten ins Kröpfchen" - Die Märchen rund um API-Deployments, IT-Tage 2022
 * Adopting AsyncAPI in Enterprisey Contexts, AsyncAPI Conference
@@ -52,7 +54,7 @@ All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot
 * ~~APIOps, codedays, Online Event~~
 * APIOps, DevOpsStars, Online Event
   
-## 2021
+## 2021 (11 talks delivered)
 * APIOps, DeveloperWeek Global, Online Event
 * APIOps, Continous Lifecycle, Online Event
 * API Experience – Mit gutem Design zu besseren und erfolgreichen APIs die eure Kunden begeistern, diwodo, Online Event
@@ -66,7 +68,7 @@ All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot
 * Beyond Automation: Practical ways to speed up your processes, Destination: Automation, Online Event
 * Zero Trust in a Cloud Native Enterprise, Destination: Zero Trust, Online Event
   
-## 2020
+## 2020 (6 talks delivered)
 * Ist APIOps King? – Automated processes for even better APIs, diwodo, Online Event
 * Enter the Next Level: Migrating to Cloud Native Platforms, Kong Summit, Online Event
 * APIOps: Automated processes for even better APIs, Destination: Automation, Online Event
@@ -74,7 +76,7 @@ All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot
 * Tackling cross-cutting-concerns at the front-door, Destination: Decentralisation, Online Event
 * Continuous API Design and Development, tech&talk, Karlsruhe
   
-## 2019
+## 2019 (10 talks delivered)
 * Continuous API Design and Development, tech&talk, Dortmund
 * API Observability, Devops & Dine Meetup, Solingen
 * Technical Deep Dive: Continuous API Development, NordicAPIs Platform Summit, Stockholm
@@ -86,7 +88,7 @@ All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot
 * API as a Product, MuleSoft Meetup, Solingen
 * Continuous API Development, code days 2019, München
   
-## 2018
+## 2018 (6 talks delivered)
 * Continuous Documentation, IT-Tage, Frankfurt
 * Application Lifecycle Intelligence, Continuous Lifecycle, Mannheim
 * Continuous Documentation, JCON, Düsseldorf
@@ -94,9 +96,9 @@ All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot
 * Continuous Documentation, JavaLand, Brühl
 * Continuous Documentation, code days, München
   
-## 2017
+## 2017 (2 talks delivered)
 * Continuous Documentation, Tools4AgileTeams, Wiesbaden
 * Continuous Documentation, bed-con, Berlin
   
-## 2016
+## 2016 (1 talk delivered)
 * Agile Documentation, JavaLand, Brühl
