@@ -1,12 +1,12 @@
 +++ 
 draft = false
 date = 2023-08-29T00:28:21+02:00
-title = "The Challenges of programmatically creating PDFs without expertise [Substack Post]"
+title = "The Challenges of programmatically creating PDFs without expertise [Architectural Bytes]"
 description = ""
 slug = ""
 authors = []
 tags = []
 categories = []
-externalLink = "https://danielkocot.substack.com/p/the-challenges-of-programmatically-creating-pdf"
+externalLink = "https://architectural-bytes.ghost.io/the-challenges-of-programmatically-creating-pdf/"
 series = []
 +++
