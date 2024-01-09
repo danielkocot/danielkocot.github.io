@@ -7,6 +7,7 @@ draft: false
 All listed publications are in german.
 
 ## IT Spektrum
+* API-Guidelines - ein Korsett für Innovation? (Ausgabe 01/2024)
 * Trends 2024 (Ausgabe 06/2023)
 * Was API-first tatsächlich bedeutet (Ausgabe 05/2023)
 * Sind wir schon auf einem Marktplatz oder noch immer in einem Portal? Oder doch was dazwischen? (Ausgabe 04/2023)
