@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2024-06-13T14:46:45+02:00
-title = "Data for the Masses Volume 2: Data Products, Data Contracts and API Contracts"
+title = "Data for the Masses Volume 2: Data Products, Data Contracts and API Contracts [codecentric Blog]"
 description = ""
 slug = ""
 authors = []
