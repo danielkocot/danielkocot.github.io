@@ -9,7 +9,7 @@ paginate = 20
  title = "Daniel Kocot"
  author = "Daniel Kocot"
  since = 2016
- info = "Senior Solution Architect / Head of API Experience and Operations with codecentric"
+ info = "Senior Solution Architect / Head of API Consulting with codecentric"
  description = "Thoughts and ideas about Architecture and APIs"
  avatarurl = "images/profile.jpg"
  enableTwemoji = true
@@ -49,6 +49,11 @@ url = "mailto:danielkocot@icloud.com?subject=Contact from Homepage"
     name = "Talks"
     weight = 400
     url = "talks/"
+
+    [[menu.main]]
+    name = "Workshops"
+    weight = 500
+    url = "workshops/"
 
 [taxonomies]
     category = "categories"
