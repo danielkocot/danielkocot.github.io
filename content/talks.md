@@ -9,10 +9,21 @@ draft: false
 All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot)
 
 ## Planned
+* Establishing a Specification Framework for API Management Federation, apidays Paris, Paris, December
+* Navigating the Post-OpenAPI Era with Innovative API Design Frameworks, NordicAPIs Platform Summit, Stockholm, October
+* MythBusters - glaub nicht alles, was du hörst [with Miriam Greis], Infodays Modernes API-Design, Cologne, September
+* Establishing a Specification Framework for API Management Federation, apidays London, London, September
+* The Digital Product Passport or Revolutionizing Product Information Exchange, priint:day 24, Mülheim an der Ruhr, September
+* Der Digitale Produktdatenpass, API.Economy Community, Minden, September
+* Effective Strategies for Controlling API Sprawl, Kong API Summit 24, online, September
+
+## 2024
+* APIs in action Masterclass [with Linda Wollgast], insurenxt, Cologne, May
+* Developer Journey, IT-Tage DevOps, online, May
+* API Sprawl in der Ära des Great Unbundlings: Herausforderungen und Strategien im API-Management, online, May 
+* Aktueller Stand der API-Entwicklung, bettercode()API, online, May
 * Protobuf und gRPC: Einführung in Cloud Native Kommunikation, JavaLand, Nürburgring, March
 * API Thinking: Ein Paradigmenwechsel im digitalen Zeitalter, OOP Software meets Business, Munich, January
-
-
 
 ## 2023 (13 talks delivered)
 * Unlocking Collaboration with Internal Developer Portals & Marketplaces: Democratizing API Access, apidays, Paris, December
