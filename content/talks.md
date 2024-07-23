@@ -14,7 +14,6 @@ All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot
 * MythBusters - glaub nicht alles, was du hörst [with Miriam Greis], Infodays Modernes API-Design, Cologne, September
 * Establishing a Specification Framework for API Management Federation, apidays London, London, September
 * The Digital Product Passport or Revolutionizing Product Information Exchange, priint:day 24, Mülheim an der Ruhr, September
-* Der Digitale Produktdatenpass, API.Economy Community, Minden, September
 * Effective Strategies for Controlling API Sprawl, Kong API Summit 24, online, September
 
 ## 2024
