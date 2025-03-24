@@ -9,14 +9,23 @@ draft: false
 All slidedecks can be found at [Speakerdeck](https://speakerdeck.com/danielkocot)
 
 ## Planned
+* Federated API Management - The next iterations, apidays, Helsinki, Juni
+* API MythBusters - Glaub nicht alles, was du hörst! (zusammen mit Miriam Greis), bettercode()API, online, Mai
+* API Thinking im Schnelldurchlauf, tech&talk, Frankfurt, Mai 
+* API Thinking im Schnelldurchlauf, tech&talk, Köln, Mai
+* OpenAPI - Wie du RESTful APIs beschreibt (zusammen mit Miriam Greis), JavaLand, Nürburgring, April
+
+## 2025
+* DevPortals, API Catalogs, and Marketplaces: Choosing the Right Tool for API Consumers, DevPortal Community Meetup, Stuttgart, March
+* Federated API Management: Balancing governance and agility, Leap 2.0, online, February
+
+## 2024 (12 talks delivered)
 * Establishing a Specification Framework for API Management Federation, apidays Paris, Paris, December
 * Navigating the Post-OpenAPI Era with Innovative API Design Frameworks, NordicAPIs Platform Summit, Stockholm, October
 * MythBusters - glaub nicht alles, was du hörst [with Miriam Greis], Infodays Modernes API-Design, Cologne, September
 * Establishing a Specification Framework for API Management Federation, apidays London, London, September
 * The Digital Product Passport or Revolutionizing Product Information Exchange, priint:day 24, Mülheim an der Ruhr, September
 * Effective Strategies for Controlling API Sprawl, Kong API Summit 24, online, September
-
-## 2024
 * APIs in action Masterclass [with Linda Wollgast], insurenxt, Cologne, May
 * Developer Journey, IT-Tage DevOps, online, May
 * API Sprawl in der Ära des Great Unbundlings: Herausforderungen und Strategien im API-Management, online, May 
