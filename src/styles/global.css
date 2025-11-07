@@ -1,0 +1,17 @@
+/* src/styles/global.css */
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+html, body {
+    font-family: var(--font-sans);
+    color: var(--color-base-content);
+    background-color: var(--color-base-100);
+    line-height: 1.65;
+}
+
+main {
+    margin-inline: auto;
+    padding-inline: var(--spacing-4);
+    max-width: var(--container-3xl);
+}
