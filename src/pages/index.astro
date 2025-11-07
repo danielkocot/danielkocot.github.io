@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { fetchSubstackPosts } from '../lib/fetchSubstack';
+const posts = await fetchSubstackPosts(5);
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout title="Daniel Kocot | Principal API Consultant">
+	<section>
+		<p class="text-lg">Hi, I'm <strong>Daniel Kocot</strong> - Principal API Consultant@codecentric, Speaker, Writer of Architectural Bytes.</p>
+	</section>
+	{posts.length > 0 ? (
+	<section>
+		<h2 class="text-xl font-semibold">Latest from Substack</h2>
+		<ul>
+			{posts.map(post => (
+				<li>
+					<a href={post.link} target="_blank" class="link link-hover">{post.title}</a>
+					<small>({post.pubDate})</small>
+				</li>
+			))}
+		</ul>
+	</section>
+	) : (
+	<section class="mt-12 opacity-70 text-center">
+		<p>No recent posts found.</p>
+	</section>
+	)}
+</Layout>
