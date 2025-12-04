@@ -4,7 +4,7 @@ import ThemeToggle from "../components/ThemeToggle.astro";
 const { title = "Daniel Kocot", description = "Principal API Consultant | Speaker | Author of Architectural Bytes"} = Astro.props;
 ---
 <!doctype html>
-<html lang="en" data-theme="light">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,24 +13,24 @@ const { title = "Daniel Kocot", description = "Principal API Consultant | Speake
 		<title>{title}</title>
 		<meta name="description" content="{description}" />
 	</head>
-	<body class="bg-base-100 text-base-content">
-		<header class="navbar bg-base-200 shadow-sm mb-8">
-			<div class="flex-1">
-				<a href="/" class="btn btn-ghost text-xl text-primary normal-case">Daniel Kocot</a>
+	<body class="bg-white text-gray-900">
+		<header class="bg-[#f7f8f9] shadow-sm mb-8 px-4 py-4">
+			<div class="max-w-7xl mx-auto flex items-center justify-between">
+				<a href="/" class="text-xl font-semibold text-[#2f3e46] hover:text-[#4e5d6a] transition-colors">Daniel Kocot</a>
+				<nav class="flex gap-6">
+					<a href="/" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">Home</a>
+					<a href="/about" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">About</a>
+					<a href="/talks" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">Talks</a>
+					<a href="/publications" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">Publications</a>
+					<a href="/contact" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">Contact</a>
+				</nav>
 			</div>
-			<nav class="flex-none gap-2 mr-4">
-				<a href="/" class="btn btn-ghost btn-sm">Home</a>
-				<a href="/about" class="btn btn-ghost btn-sm">About</a>
-				<a href="/talks" class="btn btn-ghost btn-sm">Talks</a>
-				<a href="/contact" class="btn btn-ghost btn-sm">Contact</a>
-			</nav>
-			<!-- <ThemeToggle /> -->
 		</header>
 		<main class="prose lg:prose-lg mx-auto px-4">
 			<slot />
 		</main>
-		<footer class="footer footer-center p-4 bg-base-200 text-base-content mt-12">
-			<p>&copy; 2016 - {new Date().getFullYear()} Daniel Kocot - Built with <a href="https://astro.build">Astro</a></p>
+		<footer class="bg-[#f7f8f9] text-center py-4 mt-12">
+			<p class="text-sm text-gray-600">&copy; 2016 - {new Date().getFullYear()} Daniel Kocot</p>
 		</footer>
 	</body>
 </html>

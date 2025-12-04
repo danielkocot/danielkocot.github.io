@@ -1,0 +1,348 @@
+{
+  "data": {
+    "blogArticles": [
+      {
+        "id": "cma0py14egcg808ulsxqbz8og",
+        "publishedAt": "2025-04-29",
+        "slug": "api-thinking",
+        "title": "API Thinking"
+      },
+      {
+        "id": "cm6i5sg9k4di007uosp14w6nq",
+        "publishedAt": "2025-03-20",
+        "slug": "introducing-data-interface-quadrants-diqs",
+        "title": "Introducing Data Interface Quadrants (DIQs)"
+      },
+      {
+        "id": "cm70pgj7z99ak07tg0epzsdwe",
+        "publishedAt": "2025-03-17",
+        "slug": "when-your-api-platform-lacks-the-desired-impact",
+        "title": "When your API platform lacks the desired impact"
+      },
+      {
+        "id": "cl8cm1qu8bgfd0duvnwyxhfzm",
+        "publishedAt": "2018-02-28",
+        "slug": "agile-oven-fresh-documentation-part-3-tested-requirements-with-jbake",
+        "title": "Agile, oven-fresh documentation. Part 3: Tested requirements with JBake"
+      },
+      {
+        "id": "cl8clxg2rbde90duvypnmj4y9",
+        "publishedAt": "2017-11-24",
+        "slug": "agile-oven-fresh-documentation-part-2-plantuml-jbake",
+        "title": "Agile, oven-fresh documentation. Part 2: PlantUML with JBake"
+      },
+      {
+        "id": "cl8clwz4qi1m50ct5wcck6pjj",
+        "publishedAt": "2017-10-06",
+        "slug": "agile-oven-fresh-documentation-part-1-jbake",
+        "title": "Agile, oven-fresh documentation. Part 1: JBake"
+      },
+      {
+        "id": "cm5l3nrukgzxj07uofcce7g23",
+        "publishedAt": "2025-01-08",
+        "slug": "enterprise-integration-patterns-reloaded-part-1",
+        "title": "Enterprise Integration Patterns Reloaded Part 1"
+      },
+      {
+        "id": "cm4jyvpteg3mz07t2jam5uljn",
+        "publishedAt": "2024-12-11",
+        "slug": "charge-your-apis-volume-36-trends-for-2025",
+        "title": "Charge your APIs Volume 36 - Trends for 2025"
+      },
+      {
+        "id": "cm3ol7i32kmao0eurzmvtx9za",
+        "publishedAt": "2024-11-20",
+        "slug": "charge-your-apis-volume-35-going-beyond-openapi-using-api-value-proposition-canvas-and-archimate-for-business-oriented-api-descriptions",
+        "title": "Charge your APIs Volume 35 - Going Beyond OpenAPI: Using API Value Proposition Canvas and Archimate for Business-Oriented API Descriptions"
+      },
+      {
+        "id": "cm3fk7a8blmwr07t771i67kow",
+        "publishedAt": "2024-11-13",
+        "slug": "charge-your-apis-volume-34-from-christian-postas-omni-directional-api-management-to-a-specification-framework",
+        "title": "Charge your APIs Volume 34 - From Christian Posta’s Omni-Directional API Management to a Specification Framework: Bridging Flexibility and Governance in the API Era"
+      },
+      {
+        "id": "cm0316lohf9sm06ufgrn9kwuq",
+        "publishedAt": "2024-08-21",
+        "slug": "charge-your-apis-volume-30-gateway-to-success-understanding-and-choosing-the-right-api-gateway-for-modern-architectures",
+        "title": "Charge your APIs Volume 30 - Gateway to Success: Understanding and Choosing the Right API Gateway for Modern Architectures"
+      },
+      {
+        "id": "clz0yyaom1p1n07una2nbtavg",
+        "publishedAt": "2024-07-25",
+        "slug": "charge-your-apis-volume-28-empowering-application-and-data-integration-by-fulfulling-organisational-needs",
+        "title": "Charge your APIs Volume 28: Empowering application and data integration by fulfulling organisational needs"
+      },
+      {
+        "id": "clxby4o3x4pn407uo5vaqkv3w",
+        "publishedAt": "2024-06-13",
+        "slug": "data-for-the-masses-volume-2-data-products-data-contracts-and-api-contracts",
+        "title": "Data for the Masses Volume 2: Data Products, Data Contracts and API Contracts"
+      },
+      {
+        "id": "clwkafcmzl1j607utrdn188dd",
+        "publishedAt": "2024-05-24",
+        "slug": "charge-your-apis-volume-27-transition-from-coe-c4e-to-an-api-platform-team",
+        "title": "Charge your APIs Volume 27: Transition from COE/C4E to an API Platform Team"
+      },
+      {
+        "id": "clv1i8hqqiodd07ul042xxiy5",
+        "publishedAt": "2024-04-16",
+        "slug": "charge-your-apis-volume-26-choosing-the-right-api-development-strategy-a-guide-to-api-design-first-vs-code-first-approaches",
+        "title": "Charge your APIs Volume 26: Choosing the Right API Development Strategy: A Guide to API Design First vs. Code First Approaches"
+      },
+      {
+        "id": "cltlgytqnmgjt07uktgnqh0j6",
+        "publishedAt": "2024-03-20",
+        "slug": "charge-your-apis-volume-24-harmonizing-api-strategy-and-team-dynamics",
+        "title": "Charge your APIs Volume 24: Harmonizing API Strategy and Team Dynamics - Integrating API Thinking, Federation, and Team Topologies for Digital Excellence"
+      },
+      {
+        "id": "clsabhhi9tpo20auq3snvcwep",
+        "publishedAt": "2024-02-07",
+        "slug": "charge-your-apis-volume-22-mastering-the-art-of-api-federation",
+        "title": "Charge your APIs Volume 22: Mastering the Art of API Federation"
+      },
+      {
+        "id": "clrot8a6xez8909tcfkaqqge6",
+        "publishedAt": "2024-01-25",
+        "slug": "data-for-the-masses-volume-1-the-digital-product-passport-a-key-element-for-sustainable-and-transparent-business-practices",
+        "title": "Data for the Masses Volume 1: The Digital Product Passport - A Key Element for Sustainable and Transparent Business Practices"
+      },
+      {
+        "id": "clqyv6ztplcd20buq7d58rmd9",
+        "publishedAt": "2024-01-09",
+        "slug": "charge-your-apis-volume-21-introduction-to-opentelemetry-in-the-context-of-api-operations",
+        "title": "Charge your APIs Volume 21: Introduction to OpenTelemetry in the Context of API Operations"
+      },
+      {
+        "id": "clq0sxjvyhv100aumll3qez33",
+        "publishedAt": "2023-12-14",
+        "slug": "charge-your-apis-volume-20-navigating-the-openapi-initiative-workflows-specification-enhancing-api-ecosystems",
+        "title": "Charge your APIs Volume 20: Navigating the OpenAPI Initiative Workflows Specification - Enhancing API Ecosystems"
+      },
+      {
+        "id": "clpic4p8a9zcy0buuz53yb23z",
+        "publishedAt": "2023-11-30",
+        "slug": "charge-your-apis-volume-19-understanding-problem-details-for-http-apis-a-deep-dive-into-rfc-7807-and-rfc-9457",
+        "title": "Charge your APIs Volume 19: Understanding Problem Details for HTTP APIs - A Deep Dive into RFC 7807 and RFC 9457"
+      },
+      {
+        "id": "clo6zd68f32820buqpyk3dqek",
+        "publishedAt": "2023-10-26",
+        "slug": "charge-your-apis-volume-18-unleashing-the-power-of-apis-from-interfaces-to-products",
+        "title": "Charge your APIs Volume 18: Unleashing the Power of APIs - From Interfaces to Products"
+      },
+      {
+        "id": "clnw36y1vabu10buhm1ewy75f",
+        "publishedAt": "2023-10-19",
+        "slug": "charge-your-apis-nordicapis-platform-summit-edition-api-first-not",
+        "title": "Charge your APIs: NordicAPIs Platform Summit Edition - API first ... not!"
+      },
+      {
+        "id": "clnkfa7ch7sw70bt6t6f285ro",
+        "publishedAt": "2023-10-12",
+        "slug": "charge-your-apis-volume-17-using-protobuf-for-defining-grpc-services-a-guide-to-creating-stable-and-efficient-service-definitions-part-2",
+        "title": "Charge your APIs Volume 17: Using Protobuf for Defining gRPC Services - A Guide to Creating Stable and Efficient Service Definitions Part 2"
+      },
+      {
+        "id": "cln8y8d3f55xm0atboiy8cmh2",
+        "publishedAt": "2023-10-04",
+        "slug": "charge-your-apis-volume-16-using-protobuf-for-defining-grpc-services-a-guide-to-creating-stable-and-efficient-service-definitions-part-1",
+        "title": "Charge your APIs Volume 16: Using Protobuf for Defining gRPC Services - A Guide to Creating Stable and Efficient Service Definitions Part 1"
+      },
+      {
+        "id": "clmial49ni3160auifl1ndzix",
+        "publishedAt": "2023-09-14",
+        "slug": "charge-your-apis-apidays-edition-unlocking-collaboration-with-internal-developer-portals-and-marketplaces-democratizing-api-access",
+        "title": "Charge your APIs apidays Edition: Unlocking Collaboration with Internal Developer Portals & Marketplaces - Democratizing API Access"
+      },
+      {
+        "id": "clm2knz83cqjq0bt7wsnrovpg",
+        "publishedAt": "2023-09-07",
+        "slug": "charge-your-apis-volume-15-api-gateways-navigating-the-agony-of-choice-and-the-role-of-evolutionary-architectures",
+        "title": "Charge your APIs Volume 15: API Gateways - Navigating the Agony of Choice and the Role of Evolutionary Architectures"
+      },
+      {
+        "id": "cllqnnn3p7wrr0bw7iwuozc52",
+        "publishedAt": "2023-08-31",
+        "slug": "charge-your-apis-volume-14-is-api-management-really-dead-understanding-the-role-of-apiops",
+        "title": "Charge your APIs Volume 14: Is API Management Really Dead? Understanding the Role of APIOps"
+      },
+      {
+        "id": "cllldnyi4vy5t0auqql1z3lkh",
+        "publishedAt": "2023-08-24",
+        "slug": "charge-your-apis-volume-13-data-meets-apiops",
+        "title": "Charge your APIs Volume 13: Data meets APIOps"
+      },
+      {
+        "id": "cll0yv2bvi60709w2uur1pvtw",
+        "publishedAt": "2023-08-09",
+        "slug": "charge-your-apis-volume-12-fern-streamlining-rest-api-development",
+        "title": "Charge your APIs Volume 12: Fern - Streamlining REST API Development 🌿"
+      },
+      {
+        "id": "clkqm6wc56drx0auq43o5zx4m",
+        "publishedAt": "2023-08-02",
+        "slug": "charge-your-apis-volume-11-taxi-language-building-apis-with-precision-and-ease",
+        "title": "Charge your APIs Volume 11: Taxi Language - Building APIs with Precision and Ease"
+      },
+      {
+        "id": "cljxgxjjfjo470buocdbskjfb",
+        "publishedAt": "2023-07-12",
+        "slug": "charge-your-apis-volume-10-crafting-api-definitions-with-typespec",
+        "title": "Charge your APIs Volume 10: Crafting API Definitions with TypeSpec"
+      },
+      {
+        "id": "cljnbdk0d23ho0auv1cduuz8p",
+        "publishedAt": "2023-07-05",
+        "slug": "charge-your-apis-volume-9-perfecting-apiops-api-monitoring-with-checkly",
+        "title": "Charge your APIs Volume 9: Perfecting APIOps - API Monitoring with Checkly"
+      },
+      {
+        "id": "clj0k63l8d3rr0bw6cg4w922k",
+        "publishedAt": "2023-06-28",
+        "slug": "charge-your-apis-volume-8-expanding-apiops-api-portals-and-marketplaces",
+        "title": "Charge your APIs Volume 8: Expanding APIOps - API Portals and Marketplaces"
+      },
+      {
+        "id": "cliw8urdbg3ed0aw6mr25yum0",
+        "publishedAt": "2023-06-21",
+        "slug": "charge-your-apis-volume-7-enhancing-apiops-api-diffing-with-tufinoasdiff",
+        "title": "Charge your APIs Volume 7: Enhancing APIOps - API Diffing with Tufin/oasdiff"
+      },
+      {
+        "id": "clisrkely0kou0bw6gg3e18ot",
+        "publishedAt": "2023-06-14",
+        "slug": "charge-your-apis-volume-6-perfecting-your-apiops-harnessing-the-power-of-k6-for-api-testing",
+        "title": "Charge your APIs Volume 6: Perfecting Your APIOps - Harnessing the Power of k6 for API Testing"
+      },
+      {
+        "id": "cliivoimocre60awemwsjciip",
+        "publishedAt": "2023-06-07",
+        "slug": "charge-your-apis-volume-5-taking-apiops-with-continuous-deployment-to-the-next-level",
+        "title": "Charge your APIs Volume 5: Taking APIOps with Continuous Deployment  to the Next Level"
+      },
+      {
+        "id": "cli80qpfrmv7h0buudg8qofj5",
+        "publishedAt": "2023-05-31",
+        "slug": "charge-your-apis-volume-4-streamlining-api-operations-with-continuous-integration",
+        "title": "Charge your APIs Volume 4: Streamlining API Operations with Continuous Integration"
+      },
+      {
+        "id": "cli0839a1y3yj0bweljzktbup",
+        "publishedAt": "2023-05-24",
+        "slug": "charge-your-apis-volume-3-optimizing-api-testing-with-contract-testing",
+        "title": "Charge your APIs Volume 3: Optimizing API Testing with Contract Testing"
+      },
+      {
+        "id": "clhkmjauawcq20cw7qm4ke763",
+        "publishedAt": "2023-05-17",
+        "slug": "charge-your-apis-volume-2-guide-your-teams-to-achieve-value-adding-apis",
+        "title": "Charge your APIs Volume 2 - Guide your teams to achieve value-adding APIs"
+      },
+      {
+        "id": "clhg8t2xp32ig0autf6mdyw1l",
+        "publishedAt": "2023-05-10",
+        "slug": "charge-your-apis-volume-1-build-a-documentation-system-with-mkdocs",
+        "title": "Charge your APIs Volume 1 - Build a documentation system with mkdocs"
+      },
+      {
+        "id": "cl8kqlzvgcqhk0auhe9ncomi3",
+        "publishedAt": "2022-10-12",
+        "slug": "apiops-deployment-api-definitions",
+        "title": "The state of APIOps and the deployment of API definitions"
+      },
+      {
+        "id": "cl8ik9i2nibwu0ct58g4mn2lg",
+        "publishedAt": "2022-10-05",
+        "slug": "api-architecture-path-towards-evolutionary-architectures",
+        "title": "API architecture – The path towards evolutionary architectures"
+      },
+      {
+        "id": "cl8d8isqag1x70drsjim4c943",
+        "publishedAt": "2022-09-20",
+        "slug": "api-consumers-search-feedback",
+        "title": "API consumers – between search and feedback"
+      },
+      {
+        "id": "cl8d8ilc3zsyj0duvdl2syjem",
+        "publishedAt": "2022-09-13",
+        "slug": "platform-engineering-a-primer",
+        "title": "Platform Engineering – A primer"
+      },
+      {
+        "id": "cl8d8ahm2exj00btc45kdfse1",
+        "publishedAt": "2022-06-02",
+        "slug": "api-experience-how-api-products-get-ready-for-digital-markets",
+        "title": "API Experience – How API products get ready for digital markets"
+      },
+      {
+        "id": "cl8d88pckfb700auocbq97wgj",
+        "publishedAt": "2022-02-23",
+        "slug": "asyncapi-version-2-3-0-specification-updates",
+        "title": "AsyncAPI specification updates"
+      },
+      {
+        "id": "cl8d87vnj5vji0ct5i7hzja24",
+        "publishedAt": "2022-01-27",
+        "slug": "from-specification-to-infrastructure-automated-api-deployments",
+        "title": "From specification to infrastructure – automated API deployments"
+      },
+      {
+        "id": "cl8d5tegpd4o10drsgi0t2j94",
+        "publishedAt": "2021-12-22",
+        "slug": "getting-project-documentation-done-with-azure-devops-diagrams-with-plantuml",
+        "title": "Getting project documentation done with Azure DevOps – Diagrams with PlantUML"
+      },
+      {
+        "id": "cl8d5sbo4wsyt0duvg7ct58wv",
+        "publishedAt": "2021-09-27",
+        "slug": "asyncapi-documentation-event-message-driven-architectures",
+        "title": "AsyncAPI – Documentation of event- and message-driven architectures"
+      },
+      {
+        "id": "cl8d5rksdcijr0btcfpswwj9b",
+        "publishedAt": "2020-09-04",
+        "slug": "creating-integration-flows-reedelk-data-integration-platform",
+        "title": "Creating integration flows with the Reedelk Data Integration Platform"
+      },
+      {
+        "id": "cl8d5rjdxd2580drswbwye5ar",
+        "publishedAt": "2021-01-28",
+        "slug": "apiops-automated-processes-for-even-better-apis",
+        "title": "APIOps – Automated processes for even better APIs"
+      },
+      {
+        "id": "cl8d5r7ze3jqo0ct5tn2ysjpc",
+        "publishedAt": "2021-06-15",
+        "slug": "api-first-api-governance",
+        "title": "API first – now even faster!"
+      },
+      {
+        "id": "cl8d5r7anci120btc2pfloewa",
+        "publishedAt": "2021-02-23",
+        "slug": "api-gateway-service-mesh-in-the-context-of-service-connectivity",
+        "title": "API Gateway and Service Mesh in the context of service connectivity"
+      },
+      {
+        "id": "cl8d5cf0obitc0eus8ujjnik6",
+        "publishedAt": "2020-09-21",
+        "slug": "offloading-and-more-from-reedelk-data-integration-services-through-kong-enterprise",
+        "title": "Offloading and more from Reedelk Data Integration Services through Kong Enterprise"
+      },
+      {
+        "id": "cl8cm9f1zid1f0ct57nki7tff",
+        "publishedAt": "2018-10-31",
+        "slug": "api-as-a-product-insights",
+        "title": "API as a Product insights"
+      },
+      {
+        "id": "cl8cm2iz0i66f0ct5yxemdua6",
+        "publishedAt": "2018-07-06",
+        "slug": "chaos-engineering-gameday",
+        "title": "Chaos Engineering GameDay"
+      }
+    ]
+  }
+}

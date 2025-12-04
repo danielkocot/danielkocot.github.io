@@ -1,0 +1,82 @@
+{
+    "talks": [
+        {
+            "title": "Developer Experience für APIs stärken – Was Anbieter und Konsumenten wirklich weiterbringt",
+            "event": "JavaLand",
+            "date": "2026-03-10",
+            "location": "Rust, Germany",
+            "type": "Conference Talk",
+            "description": "Developer Experience (DX) ist längst zu einem entscheidenden Erfolgsfaktor für API-Initiativen geworden. Ganz gleich, ob man APIs bereitstellt oder konsumiert: Reibungsverluste in der Entwicklung bremsen die Adoption, steigern den Supportaufwand und lassen im schlimmsten Fall Integrationen scheitern. In diesem Vortrag erklären wir, was DX im Kontext von APIs eigentlich bedeutet und wie ihr als Plattform-Team sie sowohl für API-Provider als auch für -Consumer verbessern könnt.",
+            "topics": ["Developer Experience"],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "Miriam Greis"
+        },
+        {
+            "title": "Developer Experience für APIs stärken – Was Anbieter und Konsumenten wirklich weiterbringt",
+            "event": "OOP Konferenz",
+            "date": "2026-02-11",
+            "location": "Munich, Germany",
+            "type": "Conference Talk",
+            "description": "Developer Experience (DX) ist längst zu einem entscheidenden Erfolgsfaktor für API-Initiativen geworden. Ganz gleich, ob man APIs bereitstellt oder konsumiert: Reibungsverluste in der Entwicklung bremsen die Adoption, steigern den Supportaufwand und lassen im schlimmsten Fall Integrationen scheitern. In diesem Vortrag erklären wir, was DX im Kontext von APIs eigentlich bedeutet und wie ihr als Plattform-Team sie sowohl für API-Provider als auch für -Consumer verbessern könnt.",
+            "topics": ["Developer Experience"],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "Miriam Greis"
+        },
+        {
+            "title": "Lost in Translation: Unlocking Integration Success Beyond AsyncAPI",
+            "event": "FOST - AsyncAPI conference",
+            "date":"2025-12-11",
+            "location": "Paris, France",
+            "type": "Conference Talk",
+            "description": "Specs like AsyncAPI set the stage, but true integration success depends on a shared language. This talk reveals how clear communication and aligned definitions can transform your APIs from sources of confusion into engines of business value. Learn practical strategies to bridge the language gap and build integrations that actually work.",
+            "topics": ["Capability Thinking", "Enterprise Architecture", "Literacy Thinking"],
+            "slides": "",
+            "video": "",
+            "registration": "https://apidays-dot-yamm-track.appspot.com/244mJJ_v6rkqfeA59CSY-ra7WD_ATBXTrR8STor8xDG_EWze6mgHBY-4otIf2dKMQjWy30kCkb3SE-xAsb9AhlJEsGK0xYvvPRakb7PsssuqVY58F3Ln5W17EgQXsGl6Yy1v52lygyGhFRrP3WVXuti4B9wsdch_KQoU8K2Clh9pGyWeXgfEW6hduso3oy1dzpI6_ZxJS3vaBPTM4Abr-eytA_TndRYnNo_XZ6_DcFLlsJ5OSlCK8VLf0NozRAZPuwr7Y6uH_fBw6g5vrSIv-cjk15rHPMAf5jIXAnllDj0DEjwv6e9SCRQ57yGWQcMcuvHCYb1S4AZZFCMoDyq4qiQzaXA",
+            "cospeaker": ""
+        },
+        {
+            "title": "Beyond the Gateway: From API Thinking to Capability Literacy",
+            "event": "FOST - apidays",
+            "date": "2025-12-10",
+            "location": "Paris, France",
+            "type": "Conference Talk",
+            "description": "API gateways are powerful but often overloaded with business logic that does not belong there. This talk shows how API Thinking, the Data Interface Quadrants, and Capability Literacy help teams decide where logic should live, keep gateways focused on governance, and connect API design to real business value. The goal is clarity, not purity, in modern API architecture.",
+            "topics": ["API Thinking", "Capability Thinking"],
+            "slides": "",
+            "video": "",
+            "registration": "https://apidays-dot-yamm-track.appspot.com/244mJJ_v6rkqfeA59CSY-ra7WD_ATBXTrR8STor8xDG_EWze6mgHBY-4otIf2dKMQjWy30kCkb3SE-xAsb9AhlJEsGK0xYvvPRakb7PsssuqVY58F3Ln5W17EgQXsGl6Yy1v52lygyGhFRrP3WVXuti4B9wsdch_KQoU8K2Clh9pGyWeXgfEW6hduso3oy1dzpI6_ZxJS3vaBPTM4Abr-eytA_TndRYnNo_XZ6_DcFLlsJ5OSlCK8VLf0NozRAZPuwr7Y6uH_fBw6g5vrSIv-cjk15rHPMAf5jIXAnllDj0DEjwv6e9SCRQ57yGWQcMcuvHCYb1S4AZZFCMoDyq4qiQzaXA",
+            "cospeaker": ""
+        },
+        {
+            "title": "Developer Experience für APIs stärken – Was Anbieter und Konsumenten wirklich weiterbringt",
+            "event": "CLC Konferenz",
+            "date": "2025-11-19",
+            "location": "Mannheim, Germany",
+            "type": "Conference Talk",
+            "description": "Developer Experience (DX) ist längst zu einem entscheidenden Erfolgsfaktor für API-Initiativen geworden. Ganz gleich, ob man APIs bereitstellt oder konsumiert: Reibungsverluste in der Entwicklung bremsen die Adoption, steigern den Supportaufwand und lassen im schlimmsten Fall Integrationen scheitern. In diesem Vortrag erklären wir, was DX im Kontext von APIs eigentlich bedeutet und wie ihr als Plattform-Team sie sowohl für API-Provider als auch für -Consumer verbessern könnt.",
+            "topics": ["Developer Experience"],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "Miriam Greis"
+        },
+        {
+            "title": "From Experiment to Execution: Applying TypeSpec in Real-World API Design",
+            "event": "NordicAPIs Platform Summit",
+            "date": "2025-10-15",
+            "location": "Stockholm, Sweden",
+            "type": "Conference Talk",
+            "description": "In my previous talk, Navigating the Post-OpenAPI Era with Innovative API Design Frameworks, we explored why traditional API description formats like OpenAPI often fall short and how TypeSpec presents a compelling alternative. But theory is one thing—what about real-world adoption? This talk is the natural follow-up: we’ll go beyond the why and dive into the how. How do organizations integrate TypeSpec into their API development workflows? How does it scale across teams? And what challenges arise when moving from OpenAPI-based tooling to a type-safe, contract-first approach? Through concrete case studies and hands-on insights, we’ll discuss lessons learned, best practices for API standardization, and how TypeSpec can shape the future of API governance.",
+            "topics": ["API Design", "TypSpec"],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": ""
+        }
+    ]
+}
