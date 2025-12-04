@@ -1,17 +1,31 @@
 /* src/styles/global.css */
 
 @import "tailwindcss";
-@plugin "daisyui";
+
+@theme {
+  --color-primary: #2f3e46;
+  --color-secondary: #4e5d6a;
+  --color-accent: #0b6bcb;
+  --color-neutral: #3c4a53;
+  --color-base: #ffffff;
+  --color-base-muted: #f7f8f9;
+  --color-base-subtle: #ecedef;
+  --color-content: #1f2937;
+  --color-info: #0b6bcb;
+  --color-success: #2f855a;
+  --color-warning: #c08400;
+  --color-error: #c53030;
+}
 
 html, body {
-    font-family: var(--font-sans);
-    color: var(--color-base-content);
-    background-color: var(--color-base-100);
+    font-family: system-ui, -apple-system, sans-serif;
     line-height: 1.65;
+    color: var(--color-content);
+    background-color: var(--color-base);
 }
 
 main {
     margin-inline: auto;
-    padding-inline: var(--spacing-4);
-    max-width: var(--container-3xl);
+    padding-inline: 1rem;
+    max-width: 80rem;
 }

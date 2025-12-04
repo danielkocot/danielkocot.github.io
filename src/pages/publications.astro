@@ -1,0 +1,379 @@
+---
+import Layout from '../layouts/Layout.astro';
+import codecentricData from '../data/codecentric_blogpost_en.json';
+import { fetchSubstackPosts } from '../lib/fetchSubstack.js';
+
+// Transform codecentric blog data and sort from newest to oldest
+const codecentricPosts = codecentricData.data.blogArticles
+	.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+	.map(post => ({
+		title: post.title,
+		outlet: "codecentric Blog",
+		date: new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long' }),
+		description: "", // No descriptions in the JSON data
+		link: `https://www.codecentric.de/en/knowledge-hub/blog/${post.slug}`
+	}));
+
+// Fetch all Substack posts (no limit)
+const substackPosts = await fetchSubstackPosts(999);
+const substackItems = substackPosts.map(post => ({
+	title: post.title,
+	outlet: "Architectural Bytes",
+	date: new Date(post.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long' }),
+	description: "",
+	link: post.link
+}));
+
+// Publications data organized by type
+const publications = [
+	{
+		type: "codecentric Blog",
+		items: codecentricPosts
+	},
+	{
+		type: "codecentric Der Softwerker - Das Magazin",
+		items: [
+			{
+				title:"Data Products, Data Contracts und API Contracts",
+				outlet: "Vol. 24",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-24"
+			},
+			{
+				title: "Die Verwendung von Protobuf zur Definition von gRPC-Services",
+				outlet: "Vol. 23",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-23"
+			},
+			{
+				title: "API-Consumer - Im Spannungsfeld von Suchen und Feedback",
+				outlet: "Vol. 21",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-21"
+			},
+			{
+				title: "API Experience",
+				outlet: "Vol. 20",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-20"
+			},
+			{
+				title: "Von der Spezifikation zur Infrastruktur - Automatisierte API Deployments",
+				outlet:  "Vol. 19",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-19"
+			},
+			{
+				title: "AsyncAPI - Dokumentation von Event- und Message-getriebenen Architekturen",
+				outlet: "Vol. 18",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-18"
+			},
+			{
+				title: "API first - jetzt noch schneller!",
+				outlet: "Vol. 17",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-17"
+			},
+			{
+				title: "APIOps - Automatisierte Prozesse für noch bessere APIs",
+				outlet: "Vol. 16",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-16"
+			},
+			{
+				title: "Kontinuierlichees API-Design und -Entwicklung",
+				outlet: "Vol. 14",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-14"
+			},
+			{
+				title: "Die Zukunft von VoiceUIs",
+				outlet: "Frontend Spezial",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-frontend-spezial"
+			},
+			{
+				title: "Hey Duke, let's talk! - Ein VoiceUI-System auf Basis der JVM erstellen",
+				outlet: "Vol. 13",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-13"
+			},
+			{
+				title: "Continuous Documentation",
+				outlet: "Vol. 12",
+				link: "https://www.codecentric.de/wissens-hub/softwerker/softwerker-vol-12"
+			},
+		]
+	},
+	{
+		type: "IT Spektrum Articles",
+		items: [
+			{
+				title: "API Design Best Practices",
+				outlet: "IT Spektrum",
+				date: "2024",
+				description: "Comprehensive guide to modern API design patterns and principles.",
+				link: "#"
+			},
+			{
+				title: "Enterprise Architecture Patterns",
+				outlet: "IT Spektrum",
+				date: "2024",
+				description: "Exploring architectural patterns for enterprise systems.",
+				link: "#"
+			},
+			{
+				title: "Event-Driven Architecture",
+				outlet: "IT Spektrum",
+				date: "2023",
+				description: "Deep dive into event-driven architectures and their applications.",
+				link: "#"
+			},
+			// Add more IT Spektrum articles here (you mentioned nearly 20 total)
+		]
+	},
+	{
+		type: "Substack - Architectural Bytes",
+		items: substackItems
+	},
+    {
+        type: "Pod- & Videocasts",
+        items: []
+    },
+];
+---
+
+<Layout title="Publications | Daniel Kocot">
+    <!-- Hero Section -->
+	<section class="min-h-[20vh] bg-white border-b border-gray-200 -mx-4 px-4 mb-12 flex items-center justify-center py-12">
+		<div class="text-center max-w-3xl">
+			<h1 class="text-5xl md:text-6xl font-bold mb-6 text-[#2f3e46]">
+				Publications
+			</h1>
+			<p class="text-xl text-gray-600">
+				A collection of articles, talks, and workshops on API architecture, enterprise integration, and software engineering.
+			</p>
+		</div>
+	</section>
+
+	<!-- Search Section -->
+	<section class="mb-12 not-prose">
+		<div class="flex flex-col gap-2">
+			<div class="flex">
+				<input 
+					type="text" 
+					id="searchInput"
+					placeholder="Search publications by title, outlet, or date..." 
+					class="flex-1 px-4 py-3 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-[#2f3e46] focus:border-transparent"
+				/>
+				<button class="px-6 bg-[#2f3e46] text-white rounded-r-lg hover:bg-[#4e5d6a] transition-colors">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+					</svg>
+				</button>
+			</div>
+			<div>
+				<span class="text-sm text-gray-600" id="searchResults"></span>
+			</div>
+		</div>
+	</section>
+
+	<!-- Stats Section -->
+	<section class="mb-16 not-prose">
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
+			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+				<div class="text-sm font-medium text-gray-600 mb-2">codecentric Blog</div>
+				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{codecentricPosts.length}</div>
+				<div class="text-sm text-gray-500">Blog posts</div>
+			</div>
+			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+				<div class="text-sm font-medium text-gray-600 mb-2">codecentric Der Softwerker</div>
+				<div class="text-4xl font-bold text-[#2f3e46] mb-2">12</div>
+				<div class="text-sm text-gray-500">Articles</div>
+			</div>
+			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+				<div class="text-sm font-medium text-gray-600 mb-2">Substack</div>
+				<div class="text-4xl font-bold text-[#4e5d6a] mb-2">{substackItems.length}</div>
+				<div class="text-sm text-gray-500">Architectural Bytes</div>
+			</div>
+			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+				<div class="text-sm font-medium text-gray-600 mb-2">IT Spektrum</div>
+				<div class="text-4xl font-bold text-[#0b6bcb] mb-2">20+</div>
+				<div class="text-sm text-gray-500">Articles</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Latest Publications -->
+	<section class="mb-16 not-prose">
+		<h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
+			Latest Publications
+		</h2>
+		<div class="space-y-4">
+			{publications.flatMap(cat => cat.items.map(item => ({...item, category: cat.type})))
+				.filter((item: any) => item.date)
+				.sort((a: any, b: any) => {
+					// Sort by date string (assuming format is consistent)
+					const dateA = new Date(a.date);
+					const dateB = new Date(b.date);
+					return dateB.getTime() - dateA.getTime();
+				})
+				.slice(0, 3)
+				.map((item: any) => (
+					<article class="bg-[#f7f8f9] rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6">
+						<div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+							<div class="flex-1">
+								<div class="flex items-center gap-2 mb-2">
+									<span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-[#2f3e46] text-white">{item.category}</span>
+								</div>
+								<h3 class="text-lg font-bold mb-2">
+									{item.link !== "#" ? (
+										<a href={item.link} target="_blank" rel="noopener noreferrer" class="text-[#0b6bcb] hover:text-[#2f3e46] underline">
+											{item.title}
+										</a>
+									) : (
+										<span>{item.title}</span>
+									)}
+								</h3>
+								{item.description && <p class="text-sm text-gray-600 mb-2">{item.description}</p>}
+								<div class="flex flex-wrap gap-2 text-xs text-gray-600">
+									<span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-white text-gray-700">{item.outlet}</span>
+									{item.date && <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-white text-gray-700">{item.date}</span>}
+								</div>
+							</div>
+							{item.link !== "#" && (
+								<a href={item.link} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center p-2 text-gray-700 hover:text-[#2f3e46] transition-colors">
+									<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+									</svg>
+								</a>
+							)}
+						</div>
+					</article>
+				))
+			}
+		</div>
+	</section>
+
+	<!-- Publications by Type -->
+	<section class="mb-16 not-prose">
+		{publications.map((category) => (
+			<details class="bg-[#f7f8f9] rounded-lg shadow-lg mb-4 group">
+				<summary class="cursor-pointer p-6 flex items-center justify-between hover:bg-[#ecedef] transition-colors">
+					<div class="flex items-center gap-3">
+						<h2 class="text-3xl font-bold">{category.type}</h2>
+						<div class="inline-flex items-center px-4 py-2 rounded-full text-base font-medium bg-[#2f3e46] text-white">{category.items.length}</div>
+					</div>
+					<svg class="w-6 h-6 text-gray-600 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+					</svg>
+				</summary>
+				<div class="px-6 pb-6">
+					<div class="space-y-4 pt-4">
+						{category.items.map((item: any) => (
+							<article class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6">
+								<div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+									<div class="flex-1">
+										<h3 class="text-lg font-bold mb-2">
+											{item.link !== "#" ? (
+												<a href={item.link} target="_blank" rel="noopener noreferrer" class="text-[#0b6bcb] hover:text-[#2f3e46] underline">
+													{item.title}
+												</a>
+											) : (
+												<span>{item.title}</span>
+											)}
+										</h3>
+										{item.description && <p class="text-sm text-gray-600 mb-2">{item.description}</p>}
+										<div class="flex flex-wrap gap-2 text-xs text-gray-600">
+											<span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-[#f7f8f9] text-gray-700">{item.outlet}</span>
+											{item.date && <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-[#f7f8f9] text-gray-700">{item.date}</span>}
+										</div>
+									</div>
+									{item.link !== "#" && (
+										<a href={item.link} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center p-2 text-gray-700 hover:text-[#2f3e46] transition-colors">
+											<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+											</svg>
+										</a>
+									)}
+								</div>
+							</article>
+						))}
+					</div>
+				</div>
+			</details>
+		))}
+	</section>
+
+	<!-- CTA Section -->
+	<section class="text-center py-16 bg-gradient-to-r from-[#2f3e46]/10 to-[#4e5d6a]/10 rounded-lg -mx-4 px-4 mb-16 not-prose">
+		<h2 class="text-3xl font-bold mb-4">Interested in Collaboration?</h2>
+		<p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+			I'm available for speaking engagements, technical writing, and consulting projects.
+		</p>
+		<div class="flex gap-4 justify-center flex-wrap">
+			<a href="/contact" class="inline-flex items-center px-8 py-4 text-lg font-medium rounded-lg text-white bg-[#2f3e46] hover:bg-[#4e5d6a] transition-colors">
+				Get in Touch
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+				</svg>
+			</a>
+			<a href="/" class="inline-flex items-center px-8 py-4 text-lg font-medium rounded-lg text-[#2f3e46] border-2 border-[#2f3e46] hover:bg-[#2f3e46] hover:text-white transition-colors">
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+				</svg>
+				Back to Home
+			</a>
+		</div>
+	</section>
+</Layout>
+
+<script>
+	// Search functionality
+	const searchInput = document.getElementById('searchInput') as HTMLInputElement;
+	const searchResults = document.getElementById('searchResults') as HTMLSpanElement;
+	const detailsSections = document.querySelectorAll('details');
+	
+	// Only get articles within details sections (exclude latest publications)
+	const searchableArticles = document.querySelectorAll('details article') as NodeListOf<HTMLElement>;
+
+	function performSearch() {
+		const searchTerm = searchInput.value.toLowerCase().trim();
+		let visibleCount = 0;
+		let totalCount = 0;
+
+		if (searchTerm === '') {
+			// Reset: show all articles and close all sections
+			searchableArticles.forEach((article: HTMLElement) => {
+				article.style.display = '';
+			});
+			detailsSections.forEach(section => {
+				section.removeAttribute('open');
+			});
+			searchResults.textContent = '';
+			return;
+		}
+
+		// Search through searchable articles only
+		searchableArticles.forEach((article: HTMLElement) => {
+			totalCount++;
+			const title = article.textContent?.toLowerCase() || '';
+			
+			const matches = title.includes(searchTerm);
+			
+			if (matches) {
+				article.style.display = '';
+				visibleCount++;
+				// Open the parent details section
+				const parentDetails = article.closest('details');
+				if (parentDetails) {
+					parentDetails.setAttribute('open', '');
+				}
+			} else {
+				article.style.display = 'none';
+			}
+		});
+
+		// Update search results text
+		searchResults.textContent = `Found ${visibleCount} of ${totalCount} publications`;
+	}
+
+	// Add event listeners
+	searchInput.addEventListener('input', performSearch);
+	searchInput.addEventListener('keyup', (e) => {
+		if (e.key === 'Escape') {
+			searchInput.value = '';
+			performSearch();
+		}
+	});
+</script>
