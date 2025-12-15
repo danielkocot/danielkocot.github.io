@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import codecentricData from '../data/codecentric_blogpost_en.json';
+import itSpektrumData from '../data/it-spektrum.json';
+import podVideocastsData from '../data/pod_video_casts.json';
 import { fetchSubstackPosts } from '../lib/fetchSubstack.js';
 
 // Transform codecentric blog data and sort from newest to oldest
@@ -23,6 +25,28 @@ const substackItems = substackPosts.map(post => ({
 	description: "",
 	link: post.link
 }));
+
+// Transform IT Spektrum data and sort from newest to oldest
+const itSpektrumPosts = itSpektrumData.data.articles
+	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+	.map(post => ({
+		title: post.title,
+		outlet: "IT Spektrum",
+		date: new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long' }),
+		description: post.description,
+		link: post.url
+	}));
+
+// Transform pod & videocasts data and sort from newest to oldest
+const podVideocastItems = podVideocastsData.casts
+	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+	.map(cast => ({
+		title: cast.title,
+		outlet: cast.outlet,
+		date: new Date(cast.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long' }),
+		description: cast.description,
+		link: cast.url
+	}));
 
 // Publications data organized by type
 const publications = [
@@ -97,30 +121,7 @@ const publications = [
 	},
 	{
 		type: "IT Spektrum Articles",
-		items: [
-			{
-				title: "API Design Best Practices",
-				outlet: "IT Spektrum",
-				date: "2024",
-				description: "Comprehensive guide to modern API design patterns and principles.",
-				link: "#"
-			},
-			{
-				title: "Enterprise Architecture Patterns",
-				outlet: "IT Spektrum",
-				date: "2024",
-				description: "Exploring architectural patterns for enterprise systems.",
-				link: "#"
-			},
-			{
-				title: "Event-Driven Architecture",
-				outlet: "IT Spektrum",
-				date: "2023",
-				description: "Deep dive into event-driven architectures and their applications.",
-				link: "#"
-			},
-			// Add more IT Spektrum articles here (you mentioned nearly 20 total)
-		]
+		items: itSpektrumPosts
 	},
 	{
 		type: "Substack - Architectural Bytes",
@@ -128,7 +129,7 @@ const publications = [
 	},
     {
         type: "Pod- & Videocasts",
-        items: []
+        items: podVideocastItems
     },
 ];
 ---
@@ -183,19 +184,19 @@ const publications = [
 			</div>
 			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
 				<div class="text-sm font-medium text-gray-600 mb-2">Substack</div>
-				<div class="text-4xl font-bold text-[#4e5d6a] mb-2">{substackItems.length}</div>
+				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{substackItems.filter((item: any) => item.date).length}</div>
 				<div class="text-sm text-gray-500">Architectural Bytes</div>
 			</div>
 			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
 				<div class="text-sm font-medium text-gray-600 mb-2">IT Spektrum</div>
-				<div class="text-4xl font-bold text-[#0b6bcb] mb-2">20+</div>
+				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{itSpektrumPosts.length}</div>
 				<div class="text-sm text-gray-500">Articles</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Latest Publications -->
-	<section class="mb-16 not-prose">
+	<section id="latestPublications" class="mb-16 not-prose">
 		<h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
 			Latest Publications
 		</h2>
@@ -322,6 +323,7 @@ const publications = [
 	// Search functionality
 	const searchInput = document.getElementById('searchInput') as HTMLInputElement;
 	const searchResults = document.getElementById('searchResults') as HTMLSpanElement;
+	const latestPublications = document.getElementById('latestPublications') as HTMLElement;
 	const detailsSections = document.querySelectorAll('details');
 	
 	// Only get articles within details sections (exclude latest publications)
@@ -340,9 +342,13 @@ const publications = [
 			detailsSections.forEach(section => {
 				section.removeAttribute('open');
 			});
+			latestPublications.style.display = '';
 			searchResults.textContent = '';
 			return;
 		}
+
+		// Hide latest publications when search is active
+		latestPublications.style.display = 'none';
 
 		// Search through searchable articles only
 		searchableArticles.forEach((article: HTMLElement) => {

@@ -7,11 +7,14 @@
             "location": "Rust, Germany",
             "type": "Conference Talk",
             "description": "Developer Experience (DX) ist längst zu einem entscheidenden Erfolgsfaktor für API-Initiativen geworden. Ganz gleich, ob man APIs bereitstellt oder konsumiert: Reibungsverluste in der Entwicklung bremsen die Adoption, steigern den Supportaufwand und lassen im schlimmsten Fall Integrationen scheitern. In diesem Vortrag erklären wir, was DX im Kontext von APIs eigentlich bedeutet und wie ihr als Plattform-Team sie sowohl für API-Provider als auch für -Consumer verbessern könnt.",
-            "topics": ["Developer Experience"],
+            "topics": [
+                "Developer Experience"
+            ],
             "slides": "",
             "video": "",
             "registration": "",
-            "cospeaker": "Miriam Greis"
+            "cospeaker": "Miriam Greis",
+            "country": "Germany"
         },
         {
             "title": "Developer Experience für APIs stärken – Was Anbieter und Konsumenten wirklich weiterbringt",
@@ -20,24 +23,32 @@
             "location": "Munich, Germany",
             "type": "Conference Talk",
             "description": "Developer Experience (DX) ist längst zu einem entscheidenden Erfolgsfaktor für API-Initiativen geworden. Ganz gleich, ob man APIs bereitstellt oder konsumiert: Reibungsverluste in der Entwicklung bremsen die Adoption, steigern den Supportaufwand und lassen im schlimmsten Fall Integrationen scheitern. In diesem Vortrag erklären wir, was DX im Kontext von APIs eigentlich bedeutet und wie ihr als Plattform-Team sie sowohl für API-Provider als auch für -Consumer verbessern könnt.",
-            "topics": ["Developer Experience"],
+            "topics": [
+                "Developer Experience"
+            ],
             "slides": "",
             "video": "",
             "registration": "",
-            "cospeaker": "Miriam Greis"
+            "cospeaker": "Miriam Greis",
+            "country": "Germany"
         },
         {
             "title": "Lost in Translation: Unlocking Integration Success Beyond AsyncAPI",
             "event": "FOST - AsyncAPI conference",
-            "date":"2025-12-11",
+            "date": "2025-12-11",
             "location": "Paris, France",
             "type": "Conference Talk",
             "description": "Specs like AsyncAPI set the stage, but true integration success depends on a shared language. This talk reveals how clear communication and aligned definitions can transform your APIs from sources of confusion into engines of business value. Learn practical strategies to bridge the language gap and build integrations that actually work.",
-            "topics": ["Capability Thinking", "Enterprise Architecture", "Literacy Thinking"],
+            "topics": [
+                "Capability Thinking",
+                "Enterprise Architecture",
+                "Literacy Thinking"
+            ],
             "slides": "",
             "video": "",
             "registration": "https://apidays-dot-yamm-track.appspot.com/244mJJ_v6rkqfeA59CSY-ra7WD_ATBXTrR8STor8xDG_EWze6mgHBY-4otIf2dKMQjWy30kCkb3SE-xAsb9AhlJEsGK0xYvvPRakb7PsssuqVY58F3Ln5W17EgQXsGl6Yy1v52lygyGhFRrP3WVXuti4B9wsdch_KQoU8K2Clh9pGyWeXgfEW6hduso3oy1dzpI6_ZxJS3vaBPTM4Abr-eytA_TndRYnNo_XZ6_DcFLlsJ5OSlCK8VLf0NozRAZPuwr7Y6uH_fBw6g5vrSIv-cjk15rHPMAf5jIXAnllDj0DEjwv6e9SCRQ57yGWQcMcuvHCYb1S4AZZFCMoDyq4qiQzaXA",
-            "cospeaker": ""
+            "cospeaker": "",
+            "country": "France"
         },
         {
             "title": "Beyond the Gateway: From API Thinking to Capability Literacy",
@@ -46,11 +57,15 @@
             "location": "Paris, France",
             "type": "Conference Talk",
             "description": "API gateways are powerful but often overloaded with business logic that does not belong there. This talk shows how API Thinking, the Data Interface Quadrants, and Capability Literacy help teams decide where logic should live, keep gateways focused on governance, and connect API design to real business value. The goal is clarity, not purity, in modern API architecture.",
-            "topics": ["API Thinking", "Capability Thinking"],
+            "topics": [
+                "API Thinking",
+                "Capability Thinking"
+            ],
             "slides": "",
             "video": "",
             "registration": "https://apidays-dot-yamm-track.appspot.com/244mJJ_v6rkqfeA59CSY-ra7WD_ATBXTrR8STor8xDG_EWze6mgHBY-4otIf2dKMQjWy30kCkb3SE-xAsb9AhlJEsGK0xYvvPRakb7PsssuqVY58F3Ln5W17EgQXsGl6Yy1v52lygyGhFRrP3WVXuti4B9wsdch_KQoU8K2Clh9pGyWeXgfEW6hduso3oy1dzpI6_ZxJS3vaBPTM4Abr-eytA_TndRYnNo_XZ6_DcFLlsJ5OSlCK8VLf0NozRAZPuwr7Y6uH_fBw6g5vrSIv-cjk15rHPMAf5jIXAnllDj0DEjwv6e9SCRQ57yGWQcMcuvHCYb1S4AZZFCMoDyq4qiQzaXA",
-            "cospeaker": ""
+            "cospeaker": "",
+            "country": "France"
         },
         {
             "title": "Developer Experience für APIs stärken – Was Anbieter und Konsumenten wirklich weiterbringt",
@@ -59,11 +74,14 @@
             "location": "Mannheim, Germany",
             "type": "Conference Talk",
             "description": "Developer Experience (DX) ist längst zu einem entscheidenden Erfolgsfaktor für API-Initiativen geworden. Ganz gleich, ob man APIs bereitstellt oder konsumiert: Reibungsverluste in der Entwicklung bremsen die Adoption, steigern den Supportaufwand und lassen im schlimmsten Fall Integrationen scheitern. In diesem Vortrag erklären wir, was DX im Kontext von APIs eigentlich bedeutet und wie ihr als Plattform-Team sie sowohl für API-Provider als auch für -Consumer verbessern könnt.",
-            "topics": ["Developer Experience"],
+            "topics": [
+                "Developer Experience"
+            ],
             "slides": "",
             "video": "",
             "registration": "",
-            "cospeaker": "Miriam Greis"
+            "cospeaker": "Miriam Greis",
+            "country": "Germany"
         },
         {
             "title": "From Experiment to Execution: Applying TypeSpec in Real-World API Design",
@@ -72,11 +90,1566 @@
             "location": "Stockholm, Sweden",
             "type": "Conference Talk",
             "description": "In my previous talk, Navigating the Post-OpenAPI Era with Innovative API Design Frameworks, we explored why traditional API description formats like OpenAPI often fall short and how TypeSpec presents a compelling alternative. But theory is one thing—what about real-world adoption? This talk is the natural follow-up: we’ll go beyond the why and dive into the how. How do organizations integrate TypeSpec into their API development workflows? How does it scale across teams? And what challenges arise when moving from OpenAPI-based tooling to a type-safe, contract-first approach? Through concrete case studies and hands-on insights, we’ll discuss lessons learned, best practices for API standardization, and how TypeSpec can shape the future of API governance.",
-            "topics": ["API Design", "TypSpec"],
+            "topics": [
+                "API Design",
+                "TypSpec"
+            ],
+            "slides": "",
+            "video": "https://youtu.be/0g7UQsk405Q?si=PFRMe9TOsSgHx0GB",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Sweden"
+        },
+        {
+            "title": "Enterprise Integration Patterns 101 - Das Einmaleins der Integration für Entwickler:innen",
+            "event": "InfoDays Software-Architektur",
+            "date": "2025-10-29",
+            "location": "online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Enterprise Integration Patterns"
+            ],
             "slides": "",
             "video": "",
             "registration": "",
-            "cospeaker": ""
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Lost in Translation: Unlocking Integration Success Beyond AsyncAPI",
+            "event": "apidays - AsyncAPI conference",
+            "date": "2025-09-24",
+            "location": "London, United Kingdom",
+            "type": "Conference Talk",
+            "description": "Specs like AsyncAPI set the stage, but true integration success depends on a shared language. This talk reveals how clear communication and aligned definitions can transform your APIs from sources of confusion into engines of business value. Learn practical strategies to bridge the language gap and build integrations that actually work.",
+            "topics": [
+                "Capability Thinking",
+                "Enterprise Architecture",
+                "Literacy Thinking"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "https://apidays-dot-yamm-track.appspot.com/244mJJ_v6rkqfeA59CSY-ra7WD_ATBXTrR8STor8xDG_EWze6mgHBY-4otIf2dKMQjWy30kCkb3SE-xAsb9AhlJEsGK0xYvvPRakb7PsssuqVY58F3Ln5W17EgQXsGl6Yy1v52lygyGhFRrP3WVXuti4B9wsdch_KQoU8K2Clh9pGyWeXgfEW6hduso3oy1dzpI6_ZxJS3vaBPTM4Abr-eytA_TndRYnNo_XZ6_DcFLlsJ5OSlCK8VLf0NozRAZPuwr7Y6uH_fBw6g5vrSIv-cjk15rHPMAf5jIXAnllDj0DEjwv6e9SCRQ57yGWQcMcuvHCYb1S4AZZFCMoDyq4qiQzaXA",
+            "cospeaker": "",
+            "country": "United Kingdom"
+        },
+        {
+            "title": "API Thinking im Schnelldurchlauf",
+            "event": "Meetup Softwerkskammer Nürnberg",
+            "date": "2025-07-22",
+            "location": "Nuremberg, Germany",
+            "type": "Meetup",
+            "description": "",
+            "topics": [
+                "API Thinking",
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Federated API Management - The next iterations",
+            "event": "apidays",
+            "date": "2025-07-02",
+            "location": "Munich, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Management",
+                "Federation"
+            ],
+            "slides": "",
+            "video": "https://www.youtube.com/watch?v=6FRkDlG9Xss",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "API Thinking: Strategische Herangehensweisen für modernes API-Design",
+            "event": "MAD Summit",
+            "date": "2025-07-01",
+            "location": "Munich, Germany",
+            "type": "Workshop",
+            "description": "In der digitalen Ära sind APIs nicht nur technische Schnittstellen, sondern auch Produkte, die den Erfolg oder Misserfolg von Geschäftsmodellen beeinflussen können. Ein tiefes Verständnis und eine durchdachte Herangehensweise an das API-Design und die API-Entwicklung sind daher unerlässlich. In diesem Workshop stellen wir das Konzept des 'API Thinking' vor. Ein Vorgehen, das Organisationen oder Teams anwenden können, um APIs aus der Perspektive der Nutzer:innen und des Geschäfts zu denken, anstatt mit Fokus auf die Technik.",
+            "topics": [
+                "API Thinking",
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "Miriam Greis",
+            "country": "Germany"
+        },
+        {
+            "title": "API Thinking im Schnelldurchlauf",
+            "event": "tech&talk",
+            "date": "2025-05-07",
+            "location": "Frankfurt, Germany",
+            "type": "Meetup",
+            "description": "",
+            "topics": [
+                "API Thinking",
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "API Thinking im Schnelldurchlauf",
+            "event": "tech&talk",
+            "date": "2025-05-06",
+            "location": "Cologne, Germany",
+            "type": "Meetup",
+            "description": "",
+            "topics": [
+                "API Thinking",
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "API MythBusters – Glaub nicht alles, was du hörst!",
+            "event": "bettercode(API)",
+            "date": "2025-05-15",
+            "location": "online",
+            "type": "Conference Talk",
+            "description": "Du denkst, du weißt alles über APIs? Falsch gedacht! In unserem Vortrag 'API MythBusters' zerlegen wir die gängigsten Mythen rund um APIs und enthüllen die verblüffende Wahrheit. Von vermeintlich unverzichtbaren Best Practices bis hin zu vermeidbaren Fallstricken – wir decken alles auf! Erfahre, warum einige deiner festgefahrenen Überzeugungen vielleicht längst überholt sind und wie du deine API-Strategie revolutionieren kannst. Glaubst du, API First bedeutet nur, das API-Design vor der Entwicklung zu machen? Denk noch mal nach! Bist du bereit, deine Kenntnisse zu hinterfragen und die API-Welt mit neuen Augen zu sehen? Egal ob Design, Sicherheit, Versionierung, Fehlerbehandlung oder API-First-Ansätze – dein Lieblingsthema ist garantiert dabei!",
+            "topics": [
+                "API Thinking",
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "Miriam Greis",
+            "country": "Online"
+        },
+        {
+            "title": "OpenAPI - Wie du Restful APIs richtig beschreibst",
+            "event": "JavaLand",
+            "date": "2025-04-01",
+            "location": "Nuerburgring, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "OpenAPI",
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "Miriam Greis",
+            "country": "Germany"
+        },
+        {
+            "title": "Establishing a Specification Framework for API Management Federation",
+            "event": "apidays Paris",
+            "date": "2024-12-01",
+            "location": "Paris, France",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Management",
+                "Federation"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "France"
+        },
+        {
+            "title": "Navigating the Post-OpenAPI Era with Innovative API Design Frameworks",
+            "event": "NordicAPIs Platform Summit",
+            "date": "2024-10-01",
+            "location": "Stockholm, Sweden",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "OpenAPI"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Sweden"
+        },
+        {
+            "title": "MythBusters - glaub nicht alles, was du hörst",
+            "event": "Infodays Modernes API-Design",
+            "date": "2024-09-01",
+            "location": "Cologne, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "Miriam Greis",
+            "country": "Germany"
+        },
+        {
+            "title": "Establishing a Specification Framework for API Management Federation",
+            "event": "apidays London",
+            "date": "2024-09-01",
+            "location": "London, United Kingdom",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Management",
+                "Federation"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "United Kingdom"
+        },
+        {
+            "title": "The Digital Product Passport or Revolutionizing Product Information Exchange",
+            "event": "priint:day 24",
+            "date": "2024-09-01",
+            "location": "Mülheim an der Ruhr, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Product Information",
+                "Digital Products"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Effective Strategies for Controlling API Sprawl",
+            "event": "Kong API Summit 24",
+            "date": "2024-09-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Management",
+                "API Sprawl"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIs in action Masterclass",
+            "event": "insurenxt",
+            "date": "2024-05-01",
+            "location": "Cologne, Germany",
+            "type": "Masterclass",
+            "description": "",
+            "topics": [
+                "API Design",
+                "Best Practices"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "Linda Wollgast",
+            "country": "Germany"
+        },
+        {
+            "title": "Developer Journey",
+            "event": "IT-Tage DevOps",
+            "date": "2024-05-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Developer Experience",
+                "DevOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "API Sprawl in der Ära des Great Unbundlings: Herausforderungen und Strategien im API-Management",
+            "event": "Online",
+            "date": "2024-05-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Management",
+                "API Sprawl"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Aktueller Stand der API-Entwicklung",
+            "event": "bettercode()API",
+            "date": "2024-05-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "API Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Protobuf und gRPC: Einführung in Cloud Native Kommunikation",
+            "event": "JavaLand",
+            "date": "2024-03-01",
+            "location": "Nürburgring, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "gRPC",
+                "Protobuf",
+                "Cloud Native"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "API Thinking: Ein Paradigmenwechsel im digitalen Zeitalter",
+            "event": "OOP Software meets Business",
+            "date": "2024-01-01",
+            "location": "Munich, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Thinking",
+                "API Strategy"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Unlocking Collaboration with Internal Developer Portals & Marketplaces: Democratizing API Access",
+            "event": "apidays Paris",
+            "date": "2023-12-01",
+            "location": "Paris, France",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Developer Portals",
+                "API Governance"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "France"
+        },
+        {
+            "title": "Aktueller Stand der API-Entwicklung: Veränderung, Potenzial und Ausblicke",
+            "event": "InfoDays Moderne API-Entwicklung",
+            "date": "2023-10-01",
+            "location": "Cologne, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "API Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "API first… not",
+            "event": "NordicsAPI Platform Summit",
+            "date": "2023-10-01",
+            "location": "Stockholm, Sweden",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Strategy",
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Sweden"
+        },
+        {
+            "title": "Zusammenarbeit mit internen Entwicklerportalen und Marktplätzen ermöglichen: Demokratisierung des API-Zugangs",
+            "event": "SoftwerkerKonf",
+            "date": "2023-10-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Developer Portals",
+                "API Governance"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Leveraging Prompt Engineering for Effective OpenAPI Descriptions of APIs",
+            "event": "Prompt Engineering Conference 2023",
+            "date": "2023-09-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "OpenAPI",
+                "Documentation"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Unlocking Collaboration with Internal Developer Portals & Marketplaces: Democratizing API Access",
+            "event": "apidays London",
+            "date": "2023-09-01",
+            "location": "London, United Kingdom",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Developer Portals",
+                "API Governance"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "United Kingdom"
+        },
+        {
+            "title": "AsyncAPI 101",
+            "event": "DATEV Coding Festival",
+            "date": "2023-06-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "AsyncAPI",
+                "Event-Driven Architecture"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Tackling cross-cutting concerns within your architectures",
+            "event": "CloudLand",
+            "date": "2023-06-01",
+            "location": "Brühl, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Architecture",
+                "Cloud Native"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "On the path to evolutionary architecture with APIs",
+            "event": "Geekle API Forum",
+            "date": "2023-06-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Architecture",
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "API Experience",
+            "event": "DigitalXChange",
+            "date": "2023-06-01",
+            "location": "Gummersbach, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "Developer Experience"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Adopting AsyncAPI in enterprisey contexts",
+            "event": "EDA Summit",
+            "date": "2023-05-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "AsyncAPI",
+                "Event-Driven Architecture"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "On the path to evolutionary architecture with APIs",
+            "event": "betterCode() API",
+            "date": "2023-03-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Architecture",
+                "API Design"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Developer Journey oder warum Platform Engineering eigentlich nur einen Hype beschreibt",
+            "event": "Javaland",
+            "date": "2023-03-01",
+            "location": "Brühl, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Developer Experience",
+                "Platform Engineering"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Continuous Documentation",
+            "event": "IT-Tage",
+            "date": "2018-12-01",
+            "location": "Frankfurt, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Documentation",
+                "Continuous Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Application Lifecycle Intelligence",
+            "event": "Continuous Lifecycle",
+            "date": "2018-11-01",
+            "location": "Mannheim, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Application Lifecycle",
+                "Intelligence"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Continuous Documentation",
+            "event": "JCON",
+            "date": "2018-09-01",
+            "location": "Düsseldorf, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Documentation",
+                "Continuous Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Application Lifecycle Intelligence",
+            "event": "bed-con",
+            "date": "2018-05-01",
+            "location": "Berlin, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Application Lifecycle",
+                "Intelligence"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Continuous Documentation",
+            "event": "JavaLand",
+            "date": "2018-03-01",
+            "location": "Brühl, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Documentation",
+                "Continuous Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Continuous Documentation",
+            "event": "code days",
+            "date": "2018-05-01",
+            "location": "Munich, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Documentation",
+                "Continuous Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Continuous Documentation",
+            "event": "Tools4AgileTeams",
+            "date": "2017-11-01",
+            "location": "Wiesbaden, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Documentation",
+                "Agile"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Continuous Documentation",
+            "event": "bed-con",
+            "date": "2017-05-01",
+            "location": "Berlin, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Documentation",
+                "Continuous Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Agile Documentation",
+            "event": "JavaLand",
+            "date": "2016-03-01",
+            "location": "Brühl, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Documentation",
+                "Agile"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "API Experience – Mit Gutem Design zu besseren und erfolgreichen APIs die eure Kunden begeistern",
+            "event": "IT-Tage 2022",
+            "date": "2022-11-01",
+            "location": "Frankfurt, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "API Experience"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Die guten ins Töpfchen, die schlechten ins Kröpfchen - Die Märchen rund um API-Deployments",
+            "event": "IT-Tage 2022",
+            "date": "2022-11-01",
+            "location": "Frankfurt, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Deployments"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Adopting AsyncAPI in Enterprisey Contexts",
+            "event": "AsyncAPI Conference",
+            "date": "2022-10-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "AsyncAPI",
+                "Enterprise"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "API Experience – Good design for better and successful APIs that engage with your customers",
+            "event": "API World Virtual",
+            "date": "2022-09-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "API Experience"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "API Experience – Mit Gutem Design zu besseren und erfolgreichen APIs die eure Kunden begeistern",
+            "event": "JCON",
+            "date": "2022-09-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "API Experience"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Die guten ins Töpfchen, die schlechten ins Kröpfchen - Die Märchen rund um API-Deployments",
+            "event": "JCON",
+            "date": "2022-09-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Deployments"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Deployable API infrastructure with nginx",
+            "event": "NGINX Sprint",
+            "date": "2022-08-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Infrastructure",
+                "nginx"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Introduction to API Experience",
+            "event": "Pioneers Club Bielefeld",
+            "date": "2022-07-01",
+            "location": "Bielefeld, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Experience"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "The fairy tales about API deployments",
+            "event": "Global SRE Virtual Conference",
+            "date": "2022-07-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Deployments"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "API Experience – Mit Gutem Design zu besseren und erfolgreichen APIs die eure Kunden begeistern",
+            "event": "DATEV Coding Festival",
+            "date": "2022-06-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Experience"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps",
+            "event": "Eurostar Huddle Automation Deep Dive Webinar",
+            "date": "2022-06-01",
+            "location": "Online",
+            "type": "Webinar",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "API Deployments made simple",
+            "event": "Webinar with IONOS",
+            "date": "2022-05-01",
+            "location": "Online",
+            "type": "Webinar",
+            "description": "",
+            "topics": [
+                "API Deployments"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Die guten ins Töpfchen, die schlechten ins Kröpfchen - Die Märchen rund um API-Deployments",
+            "event": "tech&talk Stuttgart",
+            "date": "2022-05-01",
+            "location": "Stuttgart, Germany",
+            "type": "Meetup Talk",
+            "description": "",
+            "topics": [
+                "API Deployments"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "AsyncAPI 101",
+            "event": "buildingIOT",
+            "date": "2022-04-01",
+            "location": "Karlsruhe, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "AsyncAPI"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Die guten ins Töpfchen, die schlechten ins Kröpfchen - Die Märchen rund um API-Deployments",
+            "event": "SoftwerkerKonf",
+            "date": "2022-04-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Deployments"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Tackling cross-cutting concerns within your architecture",
+            "event": "Mastering Microservices",
+            "date": "2022-03-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Microservices",
+                "Architecture"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "API Experience - Mit gutem Design zu besseren und erfolgreichen APIs die eure Kunden begeistern",
+            "event": "betterCode() API Frühjahr 2022",
+            "date": "2022-03-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Experience"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Mit gutem Design zu einer besseren und erfolgreicheren API Experience",
+            "event": "JavaLand",
+            "date": "2022-03-01",
+            "location": "Brühl, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Experience"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "APIOps",
+            "event": "JavaLand",
+            "date": "2022-03-01",
+            "location": "Brühl, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "APIOps",
+            "event": "The DEVOPS Conference",
+            "date": "2022-02-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps",
+            "event": "codedays",
+            "date": "2022-02-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps",
+            "event": "DevOpsStars",
+            "date": "2022-01-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps",
+            "event": "DeveloperWeek Global",
+            "date": "2021-12-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps",
+            "event": "Continous Lifecycle",
+            "date": "2021-11-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "API Experience – Mit gutem Design zu besseren und erfolgreichen APIs die eure Kunden begeistern",
+            "event": "diwodo",
+            "date": "2021-11-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Experience"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps",
+            "event": "All Day DevOps",
+            "date": "2021-10-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Enter the next level - Migration to cloud native platforms",
+            "event": "IONOS Cloudup! Summit",
+            "date": "2021-10-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Cloud Native",
+                "Migration"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps",
+            "event": "JCON",
+            "date": "2021-09-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "The emperors new clothes - A tale about legacy and cloud",
+            "event": "Kong Summit",
+            "date": "2021-09-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Cloud",
+                "Legacy"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps",
+            "event": "Container Days Hybrid",
+            "date": "2021-09-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps: Automated processes for even better APIs",
+            "event": "betterCode() API",
+            "date": "2021-06-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps: Automated processes for even better APIs",
+            "event": "Postman Galaxy",
+            "date": "2021-06-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Beyond Automation: Practical ways to speed up your processes",
+            "event": "Destination: Automation",
+            "date": "2021-05-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Automation"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Zero Trust in a Cloud Native Enterprise",
+            "event": "Destination: Zero Trust",
+            "date": "2021-05-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Zero Trust",
+                "Cloud Native"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Ist APIOps King? – Automated processes for even better APIs",
+            "event": "diwodo",
+            "date": "2020-11-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Enter the Next Level: Migrating to Cloud Native Platforms",
+            "event": "Kong Summit",
+            "date": "2020-10-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Cloud Native",
+                "Migration"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "APIOps: Automated processes for even better APIs",
+            "event": "Destination: Automation",
+            "date": "2020-10-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "APIOps"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Dezentralisierung – Paradigmenwechsel bei der Cloud-Konnektivität",
+            "event": "Webinar with Kong",
+            "date": "2020-09-01",
+            "location": "Online",
+            "type": "Webinar",
+            "description": "",
+            "topics": [
+                "Cloud",
+                "Decentralization"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Tackling cross-cutting-concerns at the front-door",
+            "event": "Destination: Decentralisation",
+            "date": "2020-09-01",
+            "location": "Online",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Architecture"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Online"
+        },
+        {
+            "title": "Continuous API Design and Development",
+            "event": "tech&talk",
+            "date": "2020-03-01",
+            "location": "Karlsruhe, Germany",
+            "type": "Meetup Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "Continuous Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Continuous API Design and Development",
+            "event": "tech&talk",
+            "date": "2019-11-01",
+            "location": "Dortmund, Germany",
+            "type": "Meetup Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "Continuous Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "API Observability",
+            "event": "Devops & Dine Meetup",
+            "date": "2019-10-01",
+            "location": "Solingen, Germany",
+            "type": "Meetup Talk",
+            "description": "",
+            "topics": [
+                "API Observability"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Technical Deep Dive: Continuous API Development",
+            "event": "NordicAPIs Platform Summit",
+            "date": "2019-10-01",
+            "location": "Stockholm, Sweden",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "Continuous Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Sweden"
+        },
+        {
+            "title": "Hey Duke, let's talk… - Voice UI auf der JVM",
+            "event": "BaselOne",
+            "date": "2019-10-01",
+            "location": "Basel, Switzerland",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Voice UI",
+                "Java"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Switzerland"
+        },
+        {
+            "title": "API as a Product oder warum Produktmanagement für die Wertschöpfung bei APIs wichtig ist",
+            "event": "bedcon",
+            "date": "2019-05-01",
+            "location": "Berlin, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API as a Product",
+                "Product Management"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Hey Duke, let's talk… - Voice UI auf der JVM",
+            "event": "bedcon",
+            "date": "2019-05-01",
+            "location": "Berlin, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Voice UI",
+                "Java"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Hey Duke, let's talk… - Voice UI auf der JVM",
+            "event": "JavaLand",
+            "date": "2019-03-01",
+            "location": "Brühl, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "Voice UI",
+                "Java"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "API Management 101 und API as a Product",
+            "event": "DevFriday codecentric internal",
+            "date": "2019-02-01",
+            "location": "Solingen, Germany",
+            "type": "Internal Talk",
+            "description": "",
+            "topics": [
+                "API Management",
+                "API as a Product"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "API as a Product",
+            "event": "MuleSoft Meetup",
+            "date": "2019-01-01",
+            "location": "Solingen, Germany",
+            "type": "Meetup Talk",
+            "description": "",
+            "topics": [
+                "API as a Product"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
+            "title": "Continuous API Development",
+            "event": "code days 2019",
+            "date": "2019-05-01",
+            "location": "Munich, Germany",
+            "type": "Conference Talk",
+            "description": "",
+            "topics": [
+                "API Design",
+                "Continuous Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Germany"
         }
     ]
 }
