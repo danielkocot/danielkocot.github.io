@@ -1,0 +1,160 @@
+{
+    "data": {
+        "articles": [
+            {
+                "title": "API-Trends 2024",
+                "coauthor": "",
+                "date": "2023-10-26",
+                "description": "Da das Jahr sich dem Ende neigt, ist es an der Zeit, einen Ausblick auf künftige Entwicklungen zu geben und einige mögliche Trends zu betonen. Was verstehen wir unter Trends im Kontext von APIs? Der Hype Cycle von Gartner liefert uns eine Vielzahl an potenziellen Ansatzpunkten. Welche Themen stehen also momentan bei Architekten und Entwicklern im Fokus?",
+                "url": "https://www.sigs.de/artikel/api-trends-2024/"
+            },
+            {
+                "title": "API-Guidelines, der Rettungsanker beim Design von APIs",
+                "coauthor": "",
+                "date": "2022-06-24",
+                "description": "Im letzten Beitrag der Artikelreihe ging es darum, warum das Design von APIs mit sehr viel Arbeit verbunden ist und nicht so einfach mal im Vorbeigehen erledigt werden kann. API-Guidelines können ein Rettungsanker für das Design von APIs sein.",
+                "url": "https://www.sigs.de/artikel/api-guidelines-der-rettungsanker-beim-design-von-apis/"
+            },
+            {
+                "title": "APIs in Transformationsprojekten: Aus der Perspektive von Architekten",
+                "coauthor": "",
+                "date": "2024-03-05",
+                "description": "Wenn man einmal Buzzword-Bingo bei Transformationsprojekten spielt, werden dort dann sehr häufig APIs oder Schnittstellen als wichtigstes Gut genannt. Meist enden die Gedanken auf der Ebene der Integration. Was Hersteller von Lösungen im Markt hoch erfreut zurücklässt. Eine Transformation bedeutet aber auch das Hervorbringen von neuen Ideen und Möglichkeiten, also Innovation. Deswegen möchte ich einen konkreteren Blick auf die Treiber für die Verwendung von APIs werfen. Hierbei geht es nicht um konkrete technische Implementierungen, sondern wie wir aus den verschiedenen Blickwinkeln eines Enterprise- und eines Lösungsarchitekten auf die kommenden Herausforderungen blicken.",
+                "url": "https://www.sigs.de/artikel/apis-in-transformationsprojekten-aus-der-perspektive-von-architekten/"
+            },
+            {
+                "title": "Integrationsplattformen",
+                "coauthor": "",
+                "date": "2023-04-21",
+                "description": "Neben den Thematiken rund um Gateways treffe ich in Gesprächen mit Kunden und eben auch in Projekten häufig auf Integrationsplattformen in den verschiedensten Ausbaustufen. Da diese Plattformen in API-Kontexten häufig eine Rolle spielen, möchte ich einen genaueren Blick auf diese werfen.",
+                "url": "https://www.sigs.de/artikel/integrationsplattformen/"
+            },
+            {
+                "title": "Von Schatten und Zombies – APIs in freier Wildbahn",
+                "coauthor": "",
+                "date": "2022-12-16",
+                "description": "Das – uns schon bekannte – Entwicklungsteam ist weiter damit beschäftigt, die Themen rund um APIs innerhalb der gesamten Organisation voranzutreiben. Vor kurzer Zeit kam das Business, in der Person eines Domänen-Owners, auf das Team zu. Man habe eine API entdeckt, die Daten aus der Domäne innerhalb der Organisation zur Verfügung stelle. Leider seien die bereitgestellten Daten mit Fehlern behaftet. Ebenso wenig wusste der Owner etwas über diese API, da diese wohl auch nirgendwo dokumentiert war. Da der Domänen-Owner von Erfolgen des Teams innerhalb der Organisation erfahren hatte, fragte er das Team, ob es ihn bei dieser API unterstützen könnte, damit diese unter anderem den Richtlinien der Organisation genügt und auch wieder Wert für diese stiftet.",
+                "url": "https://www.sigs.de/artikel/von-schatten-und-zombies-apis-in-freier-wildbahn/"
+            },
+            {
+                "title": "Sind wir schon auf einem Marktplatz oder noch immer in einem Portal? Oder doch dazwischen?",
+                "coauthor": "",
+                "date": "2023-06-23",
+                "description": "Die Darstellung von APIs erfolgt durch Portale, Marktplätze oder Hubs. Portale bieten Entwicklern Informationen und Tools, während Marktplätze APIs zur Vermarktung und Monetarisierung bereitstellen. Die Wahl zwischen Portalen und Marktplätzen hängt von den Anforderungen einer Organisation ab. Für den Schritt zu Public APIs eignet sich ein Marktplatz mit Fokus auf Marketing und Monetarisierung. Produkte werden in einem Katalog angeboten, in Kategorien eingeteilt und mit attraktiven Geschäftsmodellen präsentiert.",
+                "url": "https://www.sigs.de/artikel/sind-wir-schon-auf-einem-marktplatz-oder-noch-immer-in-einem-portal-oder-doch-dazwischen/"
+            },
+            {
+                "title": "Nicht alle APIs müssen Rest(ful) sein",
+                "coauthor": "",
+                "date": "2022-08-26",
+                "description": "Erneut besuchen wir unser Entwicklungsteam, welches diesmal eine schwere Nuss zu knacken hat. Denn die Ideen bei der Umsetzung einer API unterstützt durch Rest(ful) scheinen nicht so zu funktionieren, wie gewünscht. Leider erhalten die Konsumenten nicht die Daten, die sie benötigen, dafür aber viele Daten, die nicht gebraucht werden. Aus diesem Grund ist das Feedback der Konsumenten eher negativ. Aber was ist hier nun schiefgelaufen?",
+                "url": "https://www.sigs.de/artikel/nicht-alle-apis-muessen-rest-ful-sein/"
+            },
+            {
+                "title": "API-Guidelines – ein Korsett für Innovation?",
+                "coauthor": "",
+                "date": "2023-12-29",
+                "description": "Im Juni 2022 teilte ich in dieser Kolumne meine ersten Gedanken über API-Richtlinien und hob ihre Rolle als Rettungsanker für ein organisationsweit vereinheitlichtes API-Design hervor. Die Essenz zog ich aus den Erfahrungen erster API-Enablement-Projekte, die damals den Grundstein für die Diskussion legten. Liebe Leser, lassen Sie uns nicht missverstehen: API-Richtlinien sind ein starkes Werkzeug im Arsenal jedes Entwicklerteams. Doch wenn es darum geht, die Innovation zu fördern – ein Hauptziel, das wir mit APIs verfolgen –, können diese Richtlinien manchmal eher ein Hindernis sein, statt eine Hilfe. Und genau das steht im Widerspruch zu ihrer eigentlichen Absicht der Unterstützung.",
+                "url": "https://www.sigs.de/artikel/api-guidelines-ein-korsett-fuer-innovation/"
+            },
+            {
+                "title": "Design von APIs ist Arbeit, Arbeit und nochmals Arbeit",
+                "coauthor": "",
+                "date": "2022-04-22",
+                "description": "Herzlich willkommen zu einer Situation aus dem Alltag eines Entwicklungsteams. Es ist Mittwoch und das Planning für den kommenden Sprint ist im vollen Gange. Das Team soll Abschätzungen in Bezug auf eine neu zu schaffende API für die ERP-Lösung anstellen. Für alle Mitglieder des Teams scheint die Lösung auf Basis einer Rest(ful)-API klar und wird mit einem geringen Zeitaufwand geschätzt. Während des Sprints wird nach einer ersten Feedbackschleife mit dem Konsumenten deutlich, dass der Use-Case der Schnittstelle doch nicht so klar und eindeutig ist. Ebenso wurden auch die Belange von Security bei der Schätzung erst mal außen vorgelassen. Sodass am Ende des Sprints keine API bereitgestellt werden konnte. Warum konnte es zu einer solchen Fehlinterpretation und -abschätzung kommen?",
+                "url": "https://www.sigs.de/artikel/design-von-apis-ist-arbeit-arbeit-und-nochmals-arbeit/"
+            },
+            {
+                "title": "Alle sprechen von API first – aber was meint das eigentlich?",
+                "coauthor": "",
+                "date": "2023-09-08",
+                "description": "In der digitalen Wirtschaft sind APIs – Application Programming Interfaces – zu einem integralen Baustein geworden. Sie verbinden Systeme, ermöglichen den Zugriff auf Daten und Dienste und sind daher unerlässlich für die Entwicklung skalierbarer und flexibler Anwendungen. Um diese Komponenten effektiv zu nutzen, sind gut durchdachte Strategien erforderlich. Eine solche Strategie, die in den letzten Jahren an Bedeutung gewonnen hat, ist die API-First-Strategie.",
+                "url": "https://www.sigs.de/artikel/alle-sprechen-von-api-first-aber-was-meint-das-eigentlich/"
+            },
+            {
+                "title": "Vermeiden von Breaking Changes mit 'API as a Product'",
+                "coauthor": "",
+                "date": "2024-05-03",
+                "description": "In der Softwareentwicklung sind APIs unverzichtbar geworden, um Systeme und Anwendungen zu verbinden. Sie sind entscheidend für Geschäftsstrategien und das Konzept „API as a Product“ gewinnt an Bedeutung, welches APIs als eigenständige Produkte sieht, die wertvoll entwickelt und verwaltet werden müssen. Breaking Changes in APIs stellen eine Herausforderung dar, da sie Integrationen stören können. Traditionelle Methoden wie API-Versionierung weisen Limitationen auf. Der Ansatz „API as a Product“, der Produktmanagementprinzipien auf APIs anwendet, bietet eine Alternative, die Nutzerbedürfnisse in den Mittelpunkt stellt und die Stabilität der Schnittstellen gewährleistet.",
+                "url": "https://www.sigs.de/artikel/vermeiden-von-breaking-changes-mit-api-as-a-product/"
+            },
+            {
+                "title": "API-Gateway – Das unbekannte Wesen",
+                "coauthor": "",
+                "date": "2023-02-24",
+                "description": "Die zahlreichen Erfahrungen aus Projekten in Bezug auf API-Gateways zeigen deutlich, dass es wieder mal an der Zeit ist, sich mit dieser Komponente, die Teil des API-Spektrums ist, im Detail auseinanderzusetzen. Was ist eigentlich der Ursprung des API-Gateways? Warum ist es eine tragende Säule beim Design von Architekturen von APIs? Diesen und weiteren Fragen möchte ich im Laufe dieses Artikels auf den Grund gehen.",
+                "url": "https://www.sigs.de/artikel/api-gateway-das-unbekannte-wesen/"
+            },
+            {
+                "title": "Schöne neue alte API-Welt: APIs brauchen Dokumentation",
+                "coauthor": "",
+                "date": "2024-08-23",
+                "description": "APIs sind unerlässlich in der modernen Softwareentwicklung, doch sie sind nur so gut wie ihre Dokumentation. Eine vollständige und aktuelle Dokumentation erleichtert Entwicklern die Nutzung und Integration von APIs, reduziert Missverständnisse und verbessert die Zusammenarbeit. Mit diesem Artikel möchte ich aufzeigen, wie ein lebendiger Dokumentationsraum geschaffen werden kann, der mithilfe von Werkzeugen wie Docusaurus und Prinzipien von APIOps eine kontinuierlich aktualisierte und hochwertige Dokumentation gewährleistet.",
+                "url": "https://www.sigs.de/artikel/schoene-neue-alte-api-welt-apis-brauchen-dokumentation/"
+            },
+            {
+                "title": "Schöne neue alte API-Welt - Von textuellen API-Beschreibungen zu programmatischen mit TypeSpec",
+                "coauthor": "",
+                "date": "2024-06-19",
+                "description": "Nach langer Zeit besuchen wir das Entwicklungsteam wieder, welches wir in den ersten Teilen unserer Artikelserie kennengelernt haben. Seitdem hat sich viel getan, nicht zuletzt durch die zahlreichen Beiträge zum Thema API, die in dieser Serie erschienen sind. Das Team hat eine spürbare Entwicklung durchgemacht und ist nun deutlich aufgeschlossener gegenüber API-Innovationen. Frühere Versuche, Schnittstellenbeschreibungen manuell zu generieren, erwiesen sich als suboptimal für die Effizienz des Teams. Die Suche nach einem programmatischen Ansatz, der es den Entwicklerinnen und Entwicklern erleichtert, qualitativ hochwertige Schnittstellenbeschreibungen zu erstellen, steht nun im Vordergrund.",
+                "url": "https://www.sigs.de/artikel/reihe-schoene-neue-alte-api-welt-von-textuellen-api-beschreibungen-zu-programmatischen-mit-typespec/"
+            },
+            {
+                "title": "API Operations (APIOps): Ein Leitfaden für API-Beschreibungen",
+                "coauthor": "Miriam Greis",
+                "date": "2024-09-26",
+                "description": "API Operations (APIOps) umfasst die Verwaltung von APIs (Application Programming Interfaces) über ihren gesamten Lebenszyklus. Dieser Prozess reicht von der Konzeption und Entwicklung über Tests und Bereitstellung bis hin zur fortlaufenden Wartung der API. Im Unterschied zu traditioneller Softwareentwicklung wird bei einer API zusätzlich zum Code eine standardisierte API-Beschreibung erstellt. Die Qualität und Richtigkeit der Beschreibung ist von enormer Bedeutung, um eine einfache Nutzung der API zu gewährleisten. Dieser Artikel fokussiert sich deshalb auf Continuous Integration (CI) und Continuous Deployment (CD) von API-Beschreibungen. In der dargestellten Beispiel-Pipeline werden Beschreibungen nach der OpenAPI-Spezifikation und GitHub Actions verwendet. Die vorgestellten Konzepte sind aber auch auf andere API-Standards und CI/CD-Werkzeuge übertragbar.",
+                "url": "https://www.sigs.de/artikel/api-operations-apiops-ein-leitfaden-fuer-api-beschreibungen/"
+            },
+            {
+                "title": "Die Trends in der API-Welt 2025",
+                "coauthor": "",
+                "date": "2024-10-18",
+                "description": "Das Jahr 2025 steht vor der Tür, und mit ihm kommen neue Trends in der Welt der APIs. Nachdem 2024 von der Nutzerorientierung geprägt war, verschiebt sich der Fokus nun wieder stärker auf die Bedürfnisse der Entwickler und die Steigerung der Produktivität. APIs entwickeln sich weiter, und die Technologien rund um sie werden immer leistungsfähiger. In diesem Artikel werfen wir einen detaillierten Blick auf die wichtigsten Trends im Bereich Architektur, Daten, API-Management, API as a Product sowie Integrationstechnologien für das Jahr 2025.",
+                "url": "https://www.sigs.de/artikel/die-trends-in-der-api-welt-2025/"
+            },
+            {
+                "title": "Warum Database APIs schlechte API-Design-Prinzipien fördern",
+                "coauthor": "",
+                "date": "2024-12-12",
+                "description": "Aktuell erleben Database APIs eine Art Renaissance. Die Idee, direkt auf eine Datenbank über eine API zuzugreifen, scheint auf den ersten Blick ideal. In diesem Artikel möchte ich beleuchten, warum Database APIs langfristig mehr Probleme verursachen, als sie lösen, und wie sie die Prinzipien eines nachhaltigen und skalierbaren API-Designs untergraben. Außerdem erklären wir, warum bewährte API-Methoden der Schlüssel zu zukunftssicheren Systemen sind.",
+                "url": "https://www.sigs.de/artikel/warum-database-apis-schlechte-api-design-prinzipien-foerdern/"
+            },
+            {
+                "title": "API-Ownership: Warum Verantwortlichkeit der Schlüssel zu erfolgreichen APIs ist",
+                "coauthor": "",
+                "date": "2025-02-17",
+                "description": "APIs sind das Fundament moderner Softwareentwicklung. Sie verbinden Systeme, treiben Innovationen voran und unterstützen Unternehmen dabei, ihre digitale Transformation voranzutreiben. Doch trotz dieser Bedeutung scheitern viele API-Initiativen an einem zentralen Problem: fehlende Verantwortlichkeit. Wenn niemand für die Entwicklung, Pflege und strategische Ausrichtung einer API verantwortlich ist, bleibt ihr Potenzial oft ungenutzt. Dieser Artikel beleuchtet, warum API-Verantwortlichkeit – oder Ownership – unverzichtbar ist, welche Herausforderungen sie mit sich bringt und wie sie sich erfolgreich etablieren lässt.",
+                "url": "https://www.sigs.de/artikel/api-ownership-warum-verantwortlichkeit-der-schluessel-zu-erfolgreichen-apis-ist/" 
+            },
+            {
+                "title": "Verteilte APIs – Architektur oder Organisationsprinzip?",
+                "coauthor": "",
+                "date": "2025-04-07",
+                "description": "In der Welt der APIs tauchen regelmäßig neue Begriffe auf, die oft mehr Verwirrung stiften als Klarheit schaffen. Einer davon ist „verteilte APIs“. Während einige darunter eine technische Architektur verstehen, die Skalierbarkeit und Modularität fördert, setzen andere den Begriff mit GraphQL Federation gleich. In vielen Fällen bleibt jedoch unklar, was genau damit gemeint ist – und vor allem, welche organisatorischen Herausforderungen damit einhergehen.",
+                "url": "https://www.sigs.de/artikel/verteilte-apis-architektur-oder-organisationsprinzip/"
+            },
+            {
+                "title": "Warum moderne API-Initiativen mehr brauchen als ein Mythos",
+                "coauthor": "",
+                "date": "2025-06-13",
+                "description": "Um APIs erfolgreich in einer Organisation zu verankern, braucht mehr als ein gut klingendes Memo wie das Bezos-Mandat. Es braucht ein grundlegendes Umdenken, das sich mit dem Begriff API Thinking beschreiben lässt.",
+                "url": "https://www.sigs.de/artikel/warum-moderne-api-initiativen-mehr-brauchen-als-ein-mythos/"
+            },
+            {
+                "title": "Warum Ihre API-Plattform ohne Betriebsmodell nur Fassade bleibt",
+                "coauthor": "",
+                "date": "2025-08-14",
+                "description": "Viele Organisationen haben in den letzten Jahren viel Zeit, Geld und Hoffnung in den Aufbau ihrer API-Plattform gesteckt. Manchmal steckt eine strategische Vision dahinter, manchmal einfach nur der Wunsch, das Thema „irgendwie in den Griff zu bekommen“. Die Tools sind eingerichtet, das Gateway steht, das Developer-Portal ist verfügbar. Und dennoch stellt sich oft ein Gefühl von Leere ein. Die Plattform ist zwar technisch verfügbar, aber sie verändert wenig. Sie wird kaum genutzt, bringt kaum Geschwindigkeit und liefert selten den erhofften strategischen Beitrag.",
+                "url": "https://www.sigs.de/artikel/warum-ihre-api-plattform-ohne-betriebsmodell-nur-fassade-bleibt/"
+            },
+            {
+                "title": "Von Architekturpatterns zum Capability Thinking",
+                "coauthor": "",
+                "date": "2025-10-16",
+                "description": "In vielen Unternehmen werden Architekturentscheidungen noch immer primär aus einer technologischen Perspektive heraus getroffen. Ein bestimmtes Muster – etwa REST-APIs, Event-Driven Architecture oder gRPC – hat sich in einem Pilotprojekt bewährt, die Ergebnisse sind vielversprechend, und daraufhin wird beschlossen, dieses Muster im gesamten Unternehmen zum Standard zu erheben. Dieses Vorgehen ist nicht untypisch, es liegt sogar nahe: Wenn ein Werkzeug an einer Stelle funktioniert, warum sollte es nicht auch an anderer Stelle Nutzen stiften? Doch dieser Schluss greift zu kurz.",
+                "url": "https://www.sigs.de/artikel/von-architekturpatterns-zum-capability-thinking/"
+            }
+        ]
+    }
+}

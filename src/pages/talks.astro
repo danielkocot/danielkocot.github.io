@@ -12,13 +12,36 @@ const upcomingTalks = allTalks
 	.filter(talk => talk.date && new Date(talk.date) > currentDate)
 	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-const talks = allTalks
+const pastTalks = allTalks
 	.filter(talk => !talk.date || new Date(talk.date) <= currentDate)
 	.sort((a, b) => {
 		if (!a.date) return 1;
 		if (!b.date) return -1;
 		return new Date(b.date).getTime() - new Date(a.date).getTime();
 	});
+
+// Group past talks by year
+const talksByYear: Record<string, typeof pastTalks> = {};
+pastTalks.forEach(talk => {
+	if (talk.date) {
+		const year = new Date(talk.date).getFullYear().toString();
+		if (!talksByYear[year]) {
+			talksByYear[year] = [];
+		}
+		talksByYear[year].push(talk);
+	}
+});
+
+const sortedYears = Object.keys(talksByYear).sort((a, b) => parseInt(b) - parseInt(a));
+
+// Count unique countries
+const countries = new Set<string>();
+pastTalks.forEach(talk => {
+	if (talk.country) {
+		countries.add(talk.country);
+	}
+});
+const uniqueCountriesCount = countries.size;
 ---
 
 <Layout title="Talks & Speaking | Daniel Kocot">
@@ -44,7 +67,7 @@ const talks = allTalks
 					</svg>
 				</div>
 				<div class="text-sm font-medium text-gray-600 mb-2">Talks Given</div>
-				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{talks.length}+</div>
+				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{pastTalks.length}</div>
 				<div class="text-sm text-gray-500">Conferences & Meetups</div>
 			</div>
 			
@@ -55,13 +78,16 @@ const talks = allTalks
 					</svg>
 				</div>
 				<div class="text-sm font-medium text-gray-600 mb-2">Attendees Reached</div>
-				<div class="text-4xl font-bold text-[#4e5d6a] mb-2">500+</div>
+				<div class="text-4xl font-bold text-[#2f3e46] mb-2">5000+ </div>
 				<div class="text-sm text-gray-500">Across all events</div>
 			</div>
 			
 			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+				<div class="flex justify-center mb-4">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="w-8 h-8 fill-current text-[#2f3e46]"><path d="M415.9 344L225 344C227.9 408.5 242.2 467.9 262.5 511.4C273.9 535.9 286.2 553.2 297.6 563.8C308.8 574.3 316.5 576 320.5 576C324.5 576 332.2 574.3 343.4 563.8C354.8 553.2 367.1 535.8 378.5 511.4C398.8 467.9 413.1 408.5 416 344zM224.9 296L415.8 296C413 231.5 398.7 172.1 378.4 128.6C367 104.2 354.7 86.8 343.3 76.2C332.1 65.7 324.4 64 320.4 64C316.4 64 308.7 65.7 297.5 76.2C286.1 86.8 273.8 104.2 262.4 128.6C242.1 172.1 227.8 231.5 224.9 296zM176.9 296C180.4 210.4 202.5 130.9 234.8 78.7C142.7 111.3 74.9 195.2 65.5 296L176.9 296zM65.5 344C74.9 444.8 142.7 528.7 234.8 561.3C202.5 509.1 180.4 429.6 176.9 344L65.5 344zM463.9 344C460.4 429.6 438.3 509.1 406 561.3C498.1 528.6 565.9 444.8 575.3 344L463.9 344zM575.3 296C565.9 195.2 498.1 111.3 406 78.7C438.3 130.9 460.4 210.4 463.9 296L575.3 296z"/></svg>
+				</div>
 				<div class="text-sm font-medium text-gray-600 mb-2">Countries</div>
-				<div class="text-4xl font-bold text-[#0b6bcb] mb-2">5+</div>
+				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{uniqueCountriesCount}</div>
 				<div class="text-sm text-gray-500">International speaking</div>
 			</div>
 		</div>
@@ -145,72 +171,88 @@ const talks = allTalks
 			</svg>
 			Past Talks
 		</h2>
-		<div class="grid grid-cols-1 gap-6">
-			{talks.map(talk => (
-				<article class="bg-[#f7f8f9] hover:bg-[#ecedef] transition-colors shadow-md rounded-lg p-6">
-					<div class="flex items-start justify-between gap-4 flex-wrap">
-						<div class="flex-1 min-w-0">
-							<div class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-white text-gray-700 mb-3">{talk.type}</div>
-							<h3 class="text-xl font-bold mb-2">{talk.title}</h3>
-							<div class="flex flex-wrap gap-3 mb-3 text-sm text-gray-600">
-									<span class="flex items-center gap-1">
-										<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-										</svg>
-										{talk.event}
-									</span>
-									<span class="flex items-center gap-1">
-										<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-										</svg>
-										{talk.date}
-									</span>
-									<span class="flex items-center gap-1">
-										<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-										</svg>
-										{talk.location}
-									</span>
-									{talk.cospeaker && (
+		
+		{sortedYears.map(year => (
+			<details class="mb-8 group">
+				<summary class="cursor-pointer flex items-center justify-between p-4 bg-[#f7f8f9] hover:bg-[#ecedef] rounded-lg transition-colors">
+					<div class="flex items-center gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#2f3e46] transform transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<h3 class="text-2xl font-bold text-[#2f3e46]">{year}</h3>
+					</div>
+					<span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-white text-gray-700 border border-gray-300">{talksByYear[year].length} talks</span>
+				</summary>
+				<div class="mt-6 ml-0">
+				<div class="grid grid-cols-1 gap-6">
+					{talksByYear[year].map(talk => (
+						<article class="bg-[#f7f8f9] hover:bg-[#ecedef] transition-colors shadow-md rounded-lg p-6">
+							<div class="flex items-start justify-between gap-4 flex-wrap">
+								<div class="flex-1 min-w-0">
+									<div class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-white text-gray-700 mb-3">{talk.type}</div>
+									<h3 class="text-xl font-bold mb-2">{talk.title}</h3>
+									<div class="flex flex-wrap gap-3 mb-3 text-sm text-gray-600">
 										<span class="flex items-center gap-1">
 											<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 											</svg>
-											Co-speaker: {talk.cospeaker}
+											{talk.event}
 										</span>
+										<span class="flex items-center gap-1">
+											<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+											</svg>
+											{talk.date}
+										</span>
+										<span class="flex items-center gap-1">
+											<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+											</svg>
+											{talk.location}
+										</span>
+										{talk.cospeaker && (
+											<span class="flex items-center gap-1">
+												<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+												</svg>
+												Co-speaker: {talk.cospeaker}
+											</span>
+										)}
+									</div>
+									<p class="text-gray-700 mb-4">{talk.description}</p>
+									<div class="flex flex-wrap gap-2">
+										{talk.topics.map(topic => (
+											<span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium text-[#2f3e46] border border-[#2f3e46]">{topic}</span>
+										))}
+									</div>
+								</div>
+								<div class="flex gap-2 shrink-0 not-prose">
+									{talk.slides && (
+										<a href={talk.slides} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg !text-[#2f3e46] !bg-white !border-2 !border-[#2f3e46] hover:!bg-[#2f3e46] hover:!text-white transition-colors !no-underline" title="View Slides">
+											<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+											</svg>
+											Slides
+										</a>
 									)}
+									{talk.video && (
+										<a href={talk.video} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg !text-[#2f3e46] !bg-white !border-2 !border-[#2f3e46] hover:!bg-[#2f3e46] hover:!text-white transition-colors !no-underline" title="Watch Video">
+											<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+											</svg>
+											Video
+										</a>
+									)}
+								</div>
 							</div>
-							<p class="text-gray-700 mb-4">{talk.description}</p>
-							<div class="flex flex-wrap gap-2">
-								{talk.topics.map(topic => (
-									<span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium text-[#2f3e46] border border-[#2f3e46]">{topic}</span>
-								))}
-						</div>
-					</div>
-					<div class="flex gap-2 shrink-0 not-prose">
-					{talk.slides && (
-						<a href={talk.slides} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg !text-[#2f3e46] !bg-white !border-2 !border-[#2f3e46] hover:!bg-[#2f3e46] hover:!text-white transition-colors !no-underline" title="View Slides">
-								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-								</svg>
-								Slides
-							</a>
-						)}
-				{talk.video && (
-					<a href={talk.video} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg !text-[#2f3e46] !bg-white !border-2 !border-[#2f3e46] hover:!bg-[#2f3e46] hover:!text-white transition-colors !no-underline" title="Watch Video">
-								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-								</svg>
-								Video
-							</a>
-						)}
-						</div>
-					</div>
-				</article>
-			))}
-		</div>
+						</article>
+					))}
+				</div>
+				</div>
+			</details>
+		))}
 	</section>
 
 	<!-- Speaking Topics -->
