@@ -59,6 +59,16 @@
             "duration": "00:24:49",
             "type": "videocast",
             "platform": "YouTube"
+        },
+        {
+            "title": "Navigating through API Design",
+            "outlet": "Loosley Coupled",
+            "description": "Are you struggling to find the right API design for your project? Or perhaps your organization is suffering from 'we’ve always done it this way' statements? The landscape is constantly evolving, and a 'one-size-fits-all' approach just doesn't work. Tune in to our next Live Stream: Navigating API Design. We’re bringing together two amazing minds from codecentric, Dr. Miriam Greis and Daniel Kocot, to help you tackle the challenge of navigating API design!",
+            "date": "2025-10-09",
+            "url": "https://www.youtube.com/watch?v=ORUcj_0NhGA",
+            "duration": "02:10:02",
+            "type": "videocast",
+            "platform": "YouTube"
         }
     ]
 }
