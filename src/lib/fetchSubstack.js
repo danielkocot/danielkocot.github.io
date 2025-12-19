@@ -5,6 +5,32 @@ const FEED_URL = "https://architecturalbytes.substack.com/feed";
 const CACHE_FILE = "src/lib/feed.xml";
 
 /**
+ * Fetch with retry logic and exponential backoff
+ */
+async function fetchWithRetry(url, options = {}, maxRetries = 3) {
+  let lastError;
+  
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      // Add delay between retries (exponential backoff: 2s, 4s, 8s)
+      if (i > 0) {
+        const delayMs = Math.pow(2, i) * 1000;
+        console.log(`Retrying in ${delayMs}ms... (attempt ${i + 1}/${maxRetries})`);
+        await new Promise(resolve => setTimeout(resolve, delayMs));
+      }
+      
+      const res = await fetch(url, options);
+      if (res.ok) return res;
+      lastError = new Error(`HTTP ${res.status}: ${res.statusText}`);
+    } catch (err) {
+      lastError = err;
+    }
+  }
+  
+  throw lastError;
+}
+
+/**
  * Gets a DOM parser that works in both browser and Node environments.
  * Falls back to linkedom for server-side rendering.
  */
@@ -36,15 +62,17 @@ export async function fetchSubstackPosts(limit = 3) {
   let fromCache = false;
 
   try {
-    const res = await fetch(FEED_URL, {
+    const res = await fetchWithRetry(FEED_URL, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'application/rss+xml, application/xml, text/xml',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/rss+xml, application/xml, text/xml, */*',
         'Accept-Language': 'en-US,en;q=0.9',
-        'Cache-Control': 'no-cache'
+        'Referer': 'https://architecturalbytes.substack.com/',
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache'
       }
     });
-    if (!res.ok) throw new Error(`Feed fetch failed: ${res.status}`);
+    
     xml = await res.text();
 
     // Update local cache
