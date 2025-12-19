@@ -36,7 +36,14 @@ export async function fetchSubstackPosts(limit = 3) {
   let fromCache = false;
 
   try {
-    const res = await fetch(FEED_URL);
+    const res = await fetch(FEED_URL, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Accept': 'application/rss+xml, application/xml, text/xml',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Cache-Control': 'no-cache'
+      }
+    });
     if (!res.ok) throw new Error(`Feed fetch failed: ${res.status}`);
     xml = await res.text();
 
