@@ -57,27 +57,37 @@ async function getDOMParser() {
  * Fetches recent posts from Substack and caches the XML feed.
  * Falls back to the last cached feed if the network call fails.
  */
+/**
+ * Fetches recent posts from Substack and caches the XML feed.
+ * In GitHub Actions, uses cached feed only (local fetch to update cache).
+ */
 export async function fetchSubstackPosts(limit = 3) {
   let xml = null;
   let fromCache = false;
+  const isCI = process.env.CI === 'true' || process.env.GITHUB_ACTIONS === 'true';
 
   try {
-    const res = await fetchWithRetry(FEED_URL, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'application/rss+xml, application/xml, text/xml, */*',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Referer': 'https://architecturalbytes.substack.com/',
-        'Cache-Control': 'no-cache',
-        'Pragma': 'no-cache'
-      }
-    });
-    
-    xml = await res.text();
+    // Skip fetch in CI environments (GitHub Actions) - only use cache
+    if (!isCI) {
+      const res = await fetchWithRetry(FEED_URL, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+          'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+          'Accept-Language': 'en-US,en;q=0.9',
+          'Referer': 'https://architecturalbytes.substack.com/',
+          'Cache-Control': 'no-cache',
+          'Pragma': 'no-cache'
+        }
+      });
+      
+      xml = await res.text();
 
-    // Update local cache
-    writeFileSync(CACHE_FILE, xml, "utf8");
-    console.log("✅ Substack feed fetched and cached.");
+      // Update local cache
+      writeFileSync(CACHE_FILE, xml, "utf8");
+      console.log("✅ Substack feed fetched and cached.");
+    } else {
+      throw new Error('Running in CI - using cached feed only');
+    }
   } catch (err) {
     console.warn("⚠️ Substack feed fetch failed:", err.message);
 
