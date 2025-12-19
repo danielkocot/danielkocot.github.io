@@ -4,6 +4,8 @@ on:
   push:
     branches: [astro-main]
   workflow_dispatch:
+  schedule:
+    - cron: '0 21 * * *'  # Daily at 11pm Berlin time (CET/CEST)
 
 permissions:
   contents: read
