@@ -154,6 +154,20 @@
                 "date": "2025-10-16",
                 "description": "In vielen Unternehmen werden Architekturentscheidungen noch immer primär aus einer technologischen Perspektive heraus getroffen. Ein bestimmtes Muster – etwa REST-APIs, Event-Driven Architecture oder gRPC – hat sich in einem Pilotprojekt bewährt, die Ergebnisse sind vielversprechend, und daraufhin wird beschlossen, dieses Muster im gesamten Unternehmen zum Standard zu erheben. Dieses Vorgehen ist nicht untypisch, es liegt sogar nahe: Wenn ein Werkzeug an einer Stelle funktioniert, warum sollte es nicht auch an anderer Stelle Nutzen stiften? Doch dieser Schluss greift zu kurz.",
                 "url": "https://www.sigs.de/artikel/von-architekturpatterns-zum-capability-thinking/"
+            },
+            {
+                "title": "Architecture neu denken - Von Landkarten zu Navigationssystemen",
+                "coauthor": "",
+                "date": "2025-12-18",
+                "description": "Diese Artikelserie begann mit Themen rund um APIs, mit Strategien, Missverständnissen, Mustern und der Frage, wie Schnittstellen zum Fundament digitaler Ökosysteme werden. APIs waren lange der Ausgangspunkt, um über Strukturen, Zusammenarbeit und Wertschöpfung zu sprechen. Doch im Laufe der Zeit zeigte sich, dass sie nur der sichtbare Teil einer tiefer liegenden Entwicklung sind. Hinter ihnen stehen grundlegende Fragen nach der Funktionsweise moderner Organisationen, nach Entscheidungsprozessen und nach der Fähigkeit, sich in einer zunehmend komplexen Umgebung zu orientieren.",
+                "url": "https://www.sigs.de/artikel/architecture-neu-denken-von-landkarten-zu-navigationssystemen/"
+            },
+            {
+                "title": "TOGAF ist nicht das Problem - Warum Enterprise Governance immer wieder an sich selbst scheitert",
+                "coauthor": "",
+                "date": "2026-02-05",
+                "description": "TOGAF ist in vielen Enterprise-Organisationen zu einem roten Tuch geworden. Kaum fällt der Begriff, entstehen Bilder von dicken Dokumenten, endlosen Reviews und Architekturgremien, die Entscheidungen verzögern statt ermöglichen. Die Kritik wirkt oft reflexhaft und dennoch speist sie sich aus realen Erfahrungen. In einer Zeit, in der Architektur zunehmend als Navigationssystem verstanden wird, das Orientierung in dynamischen Umgebungen geben soll, scheint TOGAF für viele wie ein Relikt aus der Ära der statischen Landkarten. Doch diese Ablehnung greift zu kurz. Denn selten scheitert TOGAF an seinem Inhalt. Es scheitert an der Art, wie Organisationen Governance denken und leben.",
+                "url": "https://www.sigs.de/artikel/togaf-ist-nicht-das-problem-warum-enterprise-governance-immer-wieder-an-sich-selbst-scheitert/"
             }
         ]
     }

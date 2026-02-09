@@ -1,6 +1,25 @@
 {
     "talks": [
         {
+            "title": "Spec-driven API Design: APIs als Produkte am Beispiel von spec-kit und OpenSpec",
+            "event": "bettercode()API",
+            "date": "2026-05-21",
+            "location": "online",
+            "type": "Conference Talk",
+            "description": "Dieser Vortrag stellt Spec-driven Development als Grundlage für API Design First vor, bei dem die API-Beschreibung zum zentralen Produktartefakt wird. Anhand von spec-kit und OpenSpec wird gezeigt, wie eine gemeinsame Konstitution und eine konkrete Spezifikation zu konsistenten, durchsetzbaren API-Beschreibungen kombiniert werden.",
+            "topics": [
+                "API as a Product",
+                "API Design",
+                "AI",
+                "Spec-Driven Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "https://api.bettercode.eu/tickets.php",
+            "cospeaker": "",
+            "country": "Germany"
+        },
+        {
             "title": "Developer Experience für APIs stärken – Was Anbieter und Konsumenten wirklich weiterbringt",
             "event": "JavaLand",
             "date": "2026-03-10",
