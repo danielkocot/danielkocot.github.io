@@ -168,6 +168,19 @@
                 "date": "2026-02-05",
                 "description": "TOGAF ist in vielen Enterprise-Organisationen zu einem roten Tuch geworden. Kaum fällt der Begriff, entstehen Bilder von dicken Dokumenten, endlosen Reviews und Architekturgremien, die Entscheidungen verzögern statt ermöglichen. Die Kritik wirkt oft reflexhaft und dennoch speist sie sich aus realen Erfahrungen. In einer Zeit, in der Architektur zunehmend als Navigationssystem verstanden wird, das Orientierung in dynamischen Umgebungen geben soll, scheint TOGAF für viele wie ein Relikt aus der Ära der statischen Landkarten. Doch diese Ablehnung greift zu kurz. Denn selten scheitert TOGAF an seinem Inhalt. Es scheitert an der Art, wie Organisationen Governance denken und leben.",
                 "url": "https://www.sigs.de/artikel/togaf-ist-nicht-das-problem-warum-enterprise-governance-immer-wieder-an-sich-selbst-scheitert/"
+            },
+            {
+                "title": "Wenn der Build rot wird, weil Architektur verletzt wurde",
+                "coauthor": "",
+                "date": "2026-04-07",
+                "description": "Montagmorgen. Ein Team tätigt einen Merge für einen scheinbar harmlosen Pull Request. Die Pipeline startet, die Tests laufen durch, alles sieht gut aus. Und dann wird der Build rot. Nicht wegen eines fehlgeschlagenen Unit-Tests. Nicht wegen eines Security-Scans. Sondern wegen einer Architekturregel.",
+                "url": "https://www.sigs.de/artikel/wenn-der-build-rot-wird-weil-architektur-verletzt-wurde/"
+            },
+            {
+                "title": "Governance ohne Gedächtnis ist keine Governance: wenn alles geprüft und trotzdem nichts gelernt wird",
+                "coauthor": "",
+                "date": "2026-06-08",
+                "description": "In der letzten Folge von „Schöne neue alte API-Welt“ ging es darum, wie Architektur durch automatisierte Prüfungen operativ wirksam wird. Regeln werden maschinenlesbar, Builds werden rot, Architektur verlässt das Papier und landet in der Pipeline. Auf den ersten Blick wirkt das wie ein gelöstes Problem. Man definiert Regeln, lässt sie automatisiert prüfen und stellt so sicher, dass sich alle daranhalten. Viel strukturierter geht es kaum. Und tatsächlich sieht Governance in vielen Organisationen genau so aus. Es gibt Style Guides, sauber definierte Regelwerke und funktionierende Checks in den Pipelines. Alles wirkt kontrolliert und unter Kontrolle. Und trotzdem bleibt oft ein ungutes Gefühl. Denn, obwohl alles geprüft wird, scheint sich erstaunlich wenig zu verbessern."
             }
         ]
     }
