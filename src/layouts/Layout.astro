@@ -1,0 +1,45 @@
+---
+import "../styles/global.css";
+import ThemeToggle from "../components/ThemeToggle.astro";
+const { title = "Daniel Kocot", description = "Principal API Consultant | Speaker | Author of Architectural Bytes"} = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<meta name="description" content="{description}" />
+	</head>
+	<body class="bg-white text-gray-900">
+		<header class="bg-[#f7f8f9] shadow-sm mb-8 px-4 py-4">
+			<div class="max-w-7xl mx-auto flex items-center justify-between">
+				<a href="/" class="text-xl font-semibold text-[#2f3e46] hover:text-[#4e5d6a] transition-colors">Daniel Kocot</a>
+				<nav class="flex gap-6">
+					<a href="/" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">Home</a>
+					<a href="/about" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">About</a>
+					<a href="/talks" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">Talks</a>
+					<a href="/publications" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">Publications</a>
+					<a href="/contact" class="text-sm font-medium text-gray-700 hover:text-[#2f3e46] transition-colors">Contact</a>
+				</nav>
+			</div>
+		</header>
+		<main class="prose lg:prose-lg mx-auto px-4">
+			<slot />
+		</main>
+		<footer class="bg-[#f7f8f9] text-center py-4 mt-12">
+			<p class="text-sm text-gray-600">&copy; 2016 - {new Date().getFullYear()} Daniel Kocot</p>
+		</footer>
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>

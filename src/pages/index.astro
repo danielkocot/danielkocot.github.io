@@ -1,0 +1,125 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { fetchSubstackPosts } from '../lib/fetchSubstack';
+
+const substackPosts = await fetchSubstackPosts(5);
+---
+
+<Layout title="Daniel Kocot | Principal Integration Architect">
+    <!-- Hero Section -->
+	<section class="min-h-[30vh] bg-white border-b border-gray-200 -mx-4 px-4 mb-12 py-12">
+		<div class="max-w-5xl mx-auto text-center">
+			<div class="mb-6">
+				<div class="w-32 md:w-40 mx-auto rounded-full ring-4 ring-[#2f3e46] ring-offset-4 ring-offset-white">
+					<img src="/profile.jpg" alt="Daniel Kocot" class="rounded-full" />
+				</div>
+			</div>
+			<div class="max-w-3xl mx-auto">
+				<h1 class="text-5xl md:text-6xl font-bold mb-6 text-[#2f3e46]">
+					Hi, I'm Daniel Kocot
+				</h1>
+				<p class="text-xl md:text-2xl mb-4 text-gray-700">
+					Principal Integration Architect and Tribe Lead @ <span class="text-[#2f3e46] font-semibold">adorsys GmbH & Co. KG</span>
+				</p>
+				<p class="text-lg mb-8 text-gray-600">
+					Yet Another API Evangelist • Speaker • Writer
+				</p>
+				<div class="flex gap-4 justify-center flex-wrap">
+					<a href="/publications" class="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg text-white bg-[#2f3e46] hover:bg-[#4e5d6a] transition-colors">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+						</svg>
+						Read My Articles and Posts
+					</a>
+					<a href="/talks" class="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg text-white bg-[#2f3e46] hover:bg-[#4e5d6a] transition-colors">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+						</svg>
+						View Talks
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Expertise Cards -->
+	<section class="mb-16 not-prose">
+		<h2 class="text-3xl font-bold text-center mb-8 text-[#2f3e46]">What I Do</h2>
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+			<div class="bg-[#f7f8f9] rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6">
+				<div class="text-4xl mb-4">🏗️</div>
+				<h3 class="text-xl font-bold mb-3 text-[#2f3e46]">API Consulting & Leadership</h3>
+				<p class="text-gray-600">Serving as a trusted advisor for customers' API strategies and architectures. Internally leading API competencies at tba., sharing knowledge and best practices across our consulting teams.</p>
+			</div>
+			<div class="bg-[#f7f8f9] rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6">
+				<div class="text-4xl mb-4">🎤</div>
+				<h3 class="text-xl font-bold mb-3 text-[#2f3e46]">Speaking</h3>
+				<p class="text-gray-600">Sharing insights at conferences and meetups about API design, event-driven architectures, and software engineering.</p>
+			</div>
+			<div class="bg-[#f7f8f9] rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6">
+				<div class="text-4xl mb-4">✍️</div>
+				<h3 class="text-xl font-bold mb-3 text-[#2f3e46]">Writing</h3>
+				<p class="text-gray-600">Author of <em>Architectural Bytes</em> on Substack. Contributed nearly 50 posts on the codecentric blog and nearly 20 articles for IT Spektrum about API and Enterprise Architecture topics.</p>
+			</div>
+		</div>
+	</section>
+	<!--
+	<section id="latest-writing" class="mb-16 not-prose">
+		<h2 class="text-3xl font-bold text-center mb-12">Latest Writing</h2>
+		
+		<div class="max-w-3xl mx-auto">
+			<div>
+				<div class="flex items-center justify-between mb-6">
+					<h3 class="text-2xl font-bold text-primary">Architectural Bytes</h3>
+					<a href="https://architecturalbytes.substack.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+						View All
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+						</svg>
+					</a>
+				</div>
+				{substackPosts.length > 0 ? (
+					<div class="space-y-4">
+						{substackPosts.map((post) => (
+							<article class="bg-[#f7f8f9] hover:bg-[#ecedef] transition-colors shadow-md rounded-lg">
+								<div class="p-4">
+									<h4 class="font-semibold text-base mb-2 hover:text-[#2f3e46] transition-colors">
+										<a href={post.link} target="_blank" rel="noopener noreferrer" class="hover:underline">
+											{post.title}
+										</a>
+									</h4>
+									<p class="text-xs text-gray-500 flex items-center gap-2">
+										<svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+										</svg>
+										{post.pubDate}
+									</p>
+								</div>
+							</article>
+						))}
+					</div>
+				) : (
+					<div class="flex items-center gap-3 bg-blue-50 border border-blue-200 rounded-lg p-4">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current text-blue-600 shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+						<span class="text-blue-800">No recent posts found.</span>
+					</div>
+				)}
+			</div>
+		</div>
+	</section>-->
+
+	<!-- CTA Section -->
+	<section class="text-center py-16 bg-[#f7f8f9] rounded-lg border border-gray-200 -mx-4 px-4 not-prose">
+		<h2 class="text-3xl font-bold mb-4 text-[#2f3e46]">Let's Connect</h2>
+		<p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+			Interested in API architecture, speaking opportunities, or technical collaboration? 
+			I'd love to hear from you.
+		</p>
+		<a href="/contact" class="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg text-white bg-[#2f3e46] hover:bg-[#4e5d6a] transition-colors">
+			Get in Touch
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+			</svg>
+		</a>
+	</section>
+</Layout>

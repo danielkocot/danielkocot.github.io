@@ -1,0 +1,74 @@
+{
+    "casts": [
+        {
+            "title": "APIs sind mehr als Technik",
+            "outlet": "Strategiewerkstatt Podcast",
+            "description": "Daniel, API-Experte bei codecentric, blickt auf eine spannende Entwicklung zurück - vom technischen Spezialisten zum strategischen Berater für Schnittstellen-Management. In dieser Episode der Strategiewerkstatt erfahrt ihr, wie der Wandel von reiner Technik zu ganzheitlicher API-Strategie gelingt. Daniel teilt wertvolle Einblicke darüber, wie Unternehmen durch 'API-Thinking' ihre digitalen Schnittstellen optimieren können, warum der Mensch trotz Technologie im Mittelpunkt stehen muss und weshalb das 'Upskilling' vorhandener Kompetenzen entscheidender ist als die Einführung neuer Tools. Eine Geschichte über die Verschmelzung von Strategie und Umsetzung, die Bedeutung menschlicher Expertise in komplexen IT-Landschaften und die Kunst, in einer zunehmend vernetzten Welt den organisatorischen Aspekt von Schnittstellen nicht aus den Augen zu verlieren...",
+            "date": "2025-05-27",
+            "url": "https://www.youtube.com/watch?v=vSAjeQ48rbQ",
+            "duration": "00:18:00",
+            "type": "videocast",
+            "platform": "YouTube"
+        },
+        {
+            "title": "Building Great APIs",
+            "outlet": "WunderGraph - Stefan & Jens",
+            "description": "Daniel has been part of the codecentric team since October 2016. Since the beginning of 2022 he works as Principal API Consultant at the Dortmund branch. Starting as a consultant with a focus on application lifecycle management, his focus shifted more and more towards APIs. In addition to numerous customer projects and his involvement in the open source world around APIs. He is also a frequent speaker at conferences.",
+            "date": "2025-09-09",
+            "url": "https://www.youtube.com/watch?v=f5CJYcxIo1A",
+            "duration": "01:12:56",
+            "type": "videocast",
+            "platform": "YouTube"
+        },
+        {
+            "title": "API-Management | Eine Mate mit Daniel Kocot #EineMateMit",
+            "outlet": "#EineMateMit",
+            "description": "API-Management ermöglicht es, Geschäftsprozesse, -modelle und IT-Architekturen sowohl flexibel und medienbruchfrei als auch zukunftsorientiert zu gestalten. Daniel Kocot zeigt u. a., was der Begriff umfasst, was API-Gateways ausmacht und wie eine mögliche Architektur für eine API-Management-Plattform aussieht.",
+            "date": "2020-04-16",
+            "url": "https://www.youtube.com/watch?v=Q-BSJ8m7K0E",
+            "duration": "00:05:50",
+            "type": "videocast",
+            "platform": "YouTube"
+        },
+        {
+            "title": "API Evangelist Conversation",
+            "outlet": "Kin Lane, The API Evangelist",
+            "description": "Daniel Kocot came by again to talk about the lines between our private and public APIs. We had been talking about internal, first-party, and third-party APIs back and forth on LinkedIn, and I recommended that he come by and we will have a conversation. He helped me realize that my separation between the layers was more about access, control, and velocity over just about being inside or outside the firewall and DMZ. Daniel sees this for what it is--it is about people. Lines of business, teams, tribes, and partners. Daniel has that very outside-in view of API operations, but Codecentric is being brought inside to solve the big  problems for their customers. Talking with Daniel makes me realize how important it is to have these conversations about our APIs and portals, because not everyone has a handle on the nuance of what is happening at the edge of our enterprises.",
+            "date": "2025-01-31",
+            "url": "https://www.youtube.com/watch?v=YAo-U1bgdwM",
+            "duration": "00:20:18",
+            "type": "videocast",
+            "platform": "YouTube"
+        },
+        {
+            "title": "API Evangelist Conversation",
+            "outlet": "Kin Lane, The API Evangelist",
+            "description": "Daniel has been part of the codecentric team since October 2016. Since the beginning of 2022 as Senior Solution Architect at the Dortmund location. Starting as a consultant with a focus on application lifecycle management, his focus shifted more and more towards APIs. In addition to numerous customer projects and his involvement in the open source world around APIs, he is also a frequent speaker as Head of API Consulting.",
+            "date": "2025-01-31",
+            "url": "https://www.youtube.com/watch?v=IlROkpW1tmU",
+            "duration": "00:17:13",
+            "type": "videocast",
+            "platform": "YouTube"
+        },
+        {
+            "title": "#14 - Federated Bubble in APIs",
+            "outlet": "Tapas & Pretzels",
+            "description": "In this insightful podcast episode, the hosts engage in a deep dive discussion with Daniel Kocot from codecentric on the complexities of API federation and the challenges surrounding standardisation in the API gateway market. They explore the need for a shift towards simplification and standardisation to enable easier adoption and value creation in the API landscape.",
+            "date": "2024-04-22",
+            "url": "https://www.youtube.com/watch?v=5QnOs6a8R1E",
+            "duration": "00:24:49",
+            "type": "videocast",
+            "platform": "YouTube"
+        },
+        {
+            "title": "Navigating through API Design",
+            "outlet": "Loosley Coupled",
+            "description": "Are you struggling to find the right API design for your project? Or perhaps your organization is suffering from 'we’ve always done it this way' statements? The landscape is constantly evolving, and a 'one-size-fits-all' approach just doesn't work. Tune in to our next Live Stream: Navigating API Design. We’re bringing together two amazing minds from codecentric, Dr. Miriam Greis and Daniel Kocot, to help you tackle the challenge of navigating API design!",
+            "date": "2025-10-09",
+            "url": "https://www.youtube.com/watch?v=ORUcj_0NhGA",
+            "duration": "02:10:02",
+            "type": "videocast",
+            "platform": "YouTube"
+        }
+    ]
+}
