@@ -1,8 +1,9 @@
 // src/lib/fetchSubstack.js
 import { readFileSync, writeFileSync, existsSync } from "fs";
 
-const FEED_URL = "https://architecturalbytes.substack.com/feed";
-const CACHE_FILE = "src/lib/feed.xml";
+const ARCHIVE_URL = "https://architecturalbytes.substack.com/api/v1/archive";
+const CACHE_FILE = "src/lib/substack-archive.json";
+const PAGE_SIZE = 20;
 
 /**
  * Fetch with retry logic and exponential backoff
@@ -30,108 +31,68 @@ async function fetchWithRetry(url, options = {}, maxRetries = 3) {
   throw lastError;
 }
 
-/**
- * Gets a DOM parser that works in both browser and Node environments.
- * Falls back to linkedom for server-side rendering.
- */
-async function getDOMParser() {
-  // Browser environment
-  if (typeof DOMParser !== 'undefined') {
-    return new DOMParser();
-  }
-  
-  // Node/SSR environment - use linkedom as a lightweight fallback
-  try {
-    const { parseHTML } = await import('linkedom');
-    return {
-      parseFromString: (xml, type) => parseHTML(xml).document
-    };
-  } catch (err) {
-    throw new Error(
-      'DOMParser not available. In Node, install linkedom: npm install linkedom'
-    );
-  }
-}
-
-/**
- * Fetches recent posts from Substack and caches the XML feed.
- * Falls back to the last cached feed if the network call fails.
- */
-/**
- * Fetches recent posts from Substack and caches the XML feed.
- * In GitHub Actions, uses cached feed only (local fetch to update cache).
- */
 export async function fetchSubstackPosts(limit = 3) {
-  let xml = null;
+  let archive = [];
   let fromCache = false;
   const isCI = process.env.CI === 'true' || process.env.GITHUB_ACTIONS === 'true';
 
   try {
-    // Skip fetch in CI environments (GitHub Actions) - only use cache
     if (!isCI) {
-      const res = await fetchWithRetry(FEED_URL, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-          'Accept': 'application/rss+xml, application/xml, text/xml, */*',
-          'Accept-Language': 'en-US,en;q=0.9',
-          'Referer': 'https://architecturalbytes.substack.com/',
-          'Cache-Control': 'no-cache',
-          'Pragma': 'no-cache'
-        }
-      });
-      
-      xml = await res.text();
+      const headers = {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        Accept: "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        Referer: "https://architecturalbytes.substack.com/",
+        "Cache-Control": "no-cache",
+        Pragma: "no-cache",
+      };
 
-      // Update local cache
-      writeFileSync(CACHE_FILE, xml, "utf8");
-      console.log("✅ Substack feed fetched and cached.");
+      let offset = 0;
+      while (true) {
+        const url = `${ARCHIVE_URL}?sort=new&offset=${offset}&limit=${PAGE_SIZE}`;
+        const res = await fetchWithRetry(url, { headers });
+        const page = await res.json();
+
+        if (!Array.isArray(page) || page.length === 0) {
+          break;
+        }
+
+        archive.push(...page);
+
+        if (page.length < PAGE_SIZE) {
+          break;
+        }
+
+        offset += PAGE_SIZE;
+      }
+
+      writeFileSync(CACHE_FILE, JSON.stringify(archive, null, 2), "utf8");
+      console.log(`✅ Substack archive fetched and cached (${archive.length} posts).`);
     } else {
       throw new Error('Running in CI - using cached feed only');
     }
   } catch (err) {
-    console.warn("⚠️ Substack feed fetch failed:", err.message);
+    console.warn("⚠️ Substack archive fetch failed:", err.message);
 
-    // Fallback to cached version if available
     if (existsSync(CACHE_FILE)) {
-      xml = readFileSync(CACHE_FILE, "utf8");
+      archive = JSON.parse(readFileSync(CACHE_FILE, "utf8"));
       fromCache = true;
-      console.log("📦 Using cached feed.xml");
+      console.log("📦 Using cached substack-archive.json");
     } else {
-      console.warn("❌ No cached feed available. Returning empty list.");
+      console.warn("❌ No cached archive available. Returning empty list.");
       return [];
     }
   }
 
-  // Parse the XML (either from live or cached)
-  try {
-    const parser = await getDOMParser();
-    const doc = parser.parseFromString(xml, "application/xml");
-    const items = Array.from(doc.querySelectorAll("item")).slice(0, limit);
+  const posts = archive
+    .map((post) => ({
+      title: post.title?.trim?.() ?? post.title ?? "",
+      link: post.canonical_url || (post.slug ? `https://architecturalbytes.substack.com/p/${post.slug}` : ""),
+      pubDate: new Date(post.post_date ?? Date.now()).toLocaleDateString(),
+    }))
+    .slice(0, limit);
 
-    const posts = items.map(item => {
-      // Extract title and strip CDATA wrapping if present
-      let title = item.querySelector("title")?.textContent?.trim() ?? "";
-      title = title.replace(/^<!\[CDATA\[/, "").replace(/\]\]>$/, "").trim();
-      
-      // Extract link - try textContent first, then check for href attribute or guid as fallback
-      let link = item.querySelector("link")?.textContent?.trim() ?? "";
-      if (!link) {
-        link = item.querySelector("guid")?.textContent?.trim() ?? "";
-      }
-      
-      return {
-        title,
-        link,
-        pubDate: new Date(
-          item.querySelector("pubDate")?.textContent ?? Date.now()
-        ).toLocaleDateString(),
-      };
-    });
-
-    if (fromCache) console.log(`ℹ️ Loaded ${posts.length} posts from cache.`);
-    return posts;
-  } catch (parseErr) {
-    console.error("❌ Failed to parse feed XML:", parseErr.message);
-    return [];
-  }
+  if (fromCache) console.log(`ℹ️ Loaded ${posts.length} posts from cache.`);
+  return posts;
 };

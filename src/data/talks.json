@@ -1,6 +1,62 @@
 {
     "talks": [
         {
+            "title": "Spec-Driven API Design: Treating APIs as Products with spec-kit and OpenSpec",
+            "event": "NordicAPIs Platform Summit",
+            "date": "2026-10-13",
+            "location": "Stockholm, Sweden",
+            "type": "Conference Talk",
+            "description": "This talk introduces spec-driven development as the foundation of an API design-first approach, where the API specification becomes the central product artifact. Using spec-kit and OpenSpec, it demonstrates how a shared constitution (guiding principles) combined with concrete specifications enables consistent, enforceable API definitions. This approach brings Product Owners and developers together around a common source of truth, fostering collaboration and shared ownership of API design. It supports safe and controlled API evolution while enabling scalable API governance—even in environments increasingly shaped by AI-assisted development.",
+            "topics": [
+                "API as a Product",
+                "API Design",
+                "AI",
+                "Spec-Driven Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "https://nordicapis.com/events/platform-summit-2026/#register",
+            "cospeaker": "",
+            "country": "Sweden" 
+        },
+        {
+            "title": "From API to API Product: Strategy Work with APIOps Cycles",
+            "event": "FOST/apidays Munich",
+            "date": "2026-07-09",
+            "location": "Munich, Germany",
+            "type": "Workshop",
+            "description": "Many APIs are technically well built but treated as products too late. Target audience, usage context, and value proposition often remain unclear before design and implementation begin. In this 50-minute workshop, we use APIOps Cycles to work on the API Product Strategy Station. Participants apply the Customer Journey Canvas and the API Value Proposition Canvas to their own or an example API scenario. By the end, they will take away two concrete artefacts that help them better understand API consumers and define the value proposition of their API more precisely",
+            "topics": [
+                "API as a Product",
+                "API Strategy",
+                "APIOps Cycles"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "Marjukka Niinioja",
+            "country": "Germany"
+        },
+        {
+            "title": "Spec-Driven API Design: Treating APIs as Products with spec-kit and OpenSpec",
+            "event": "FOST/apidays Amsterdam",
+            "date": "2026-06-09",
+            "location": "Amsterdam, Netherlands",
+            "type": "Conference Talk",
+            "description": "This talk introduces spec-driven development as the foundation of an API design-first approach, where the API specification becomes the central product artifact. Using spec-kit and OpenSpec, it demonstrates how a shared constitution (guiding principles) combined with concrete specifications enables consistent, enforceable API definitions. This approach brings Product Owners and developers together around a common source of truth, fostering collaboration and shared ownership of API design. It supports safe and controlled API evolution while enabling scalable API governance—even in environments increasingly shaped by AI-assisted development.",
+            "topics": [
+                "API as a Product",
+                "API Design",
+                "AI",
+                "Spec-Driven Development"
+            ],
+            "slides": "",
+            "video": "",
+            "registration": "",
+            "cospeaker": "",
+            "country": "Netherlands"
+        },
+        {
             "title": "Spec-driven API Design: APIs als Produkte am Beispiel von spec-kit und OpenSpec",
             "event": "bettercode()API",
             "date": "2026-05-21",
