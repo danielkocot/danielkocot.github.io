@@ -181,6 +181,7 @@
                 "coauthor": "",
                 "date": "2026-06-08",
                 "description": "In der letzten Folge von „Schöne neue alte API-Welt“ ging es darum, wie Architektur durch automatisierte Prüfungen operativ wirksam wird. Regeln werden maschinenlesbar, Builds werden rot, Architektur verlässt das Papier und landet in der Pipeline. Auf den ersten Blick wirkt das wie ein gelöstes Problem. Man definiert Regeln, lässt sie automatisiert prüfen und stellt so sicher, dass sich alle daranhalten. Viel strukturierter geht es kaum. Und tatsächlich sieht Governance in vielen Organisationen genau so aus. Es gibt Style Guides, sauber definierte Regelwerke und funktionierende Checks in den Pipelines. Alles wirkt kontrolliert und unter Kontrolle. Und trotzdem bleibt oft ein ungutes Gefühl. Denn, obwohl alles geprüft wird, scheint sich erstaunlich wenig zu verbessern."
+                ,"url": "https://www.sigs.de/artikel/governance-ohne-gedaechtnis-ist-keine-governance-wenn-alles-geprueft-und-trotzdem-nichts-gelernt-wird/"
             }
         ]
     }

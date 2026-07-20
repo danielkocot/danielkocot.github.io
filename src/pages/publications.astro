@@ -55,7 +55,7 @@ const adorsysPosts = adorsysData.data.articles
 		title: post.title,
 		outlet: "adorsys",
 		date: new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long'}),
-		url: post.url
+		link: post.url
 	}));
 
 // Publications data organized by type
@@ -185,28 +185,28 @@ const publications = [
 
 	<!-- Stats Section -->
 	<section class="mb-16 not-prose">
-		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
-			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+		<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:1.5rem;width:100%;">
+			<div class="min-w-0 bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
 				<div class="text-sm font-medium text-gray-600 mb-2">adorsys</div>
 				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{adorsysPosts.length}</div>
 				<div class="text-sm text-gray-500">Articles</div>
 			</div>
-			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+			<div class="min-w-0 bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
 				<div class="text-sm font-medium text-gray-600 mb-2">codecentric Blog</div>
 				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{codecentricPosts.length}</div>
 				<div class="text-sm text-gray-500">Blog posts</div>
 			</div>
-			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+			<div class="min-w-0 bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
 				<div class="text-sm font-medium text-gray-600 mb-2">codecentric Der Softwerker</div>
 				<div class="text-4xl font-bold text-[#2f3e46] mb-2">12</div>
 				<div class="text-sm text-gray-500">Articles</div>
 			</div>
-			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+			<div class="min-w-0 bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
 				<div class="text-sm font-medium text-gray-600 mb-2">IT Spektrum</div>
 				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{itSpektrumPosts.length}</div>
 				<div class="text-sm text-gray-500">Articles</div>
 			</div>
-			<div class="bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
+			<div class="min-w-0 bg-[#f7f8f9] rounded-lg shadow-lg p-6 text-center">
 				<div class="text-sm font-medium text-gray-600 mb-2">Substack</div>
 				<div class="text-4xl font-bold text-[#2f3e46] mb-2">{substackItems.length}</div>
 				<div class="text-sm text-gray-500">Architectural Bytes</div>
